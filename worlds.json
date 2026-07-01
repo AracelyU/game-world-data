@@ -1,8 +1,10 @@
 [
     {
-        "dir": "World/World1"
+        "dir": "World/World1",
+        "file": "world1.json"
     },
     {
-        "dir": "World/World2"
+        "dir": "World/World2",
+        "file": "world2.json"
     }
 ]
