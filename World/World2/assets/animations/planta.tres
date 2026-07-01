@@ -1,0 +1,62 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://tjr6yi14f81x"]
+
+[ext_resource type="Texture2D" uid="uid://bc821iqpoqbpv" path="res://World/World2/assets/animations/spritesheet_planta.png" id="1_28mj2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0635"]
+atlas = ExtResource("1_28mj2")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kjry5"]
+atlas = ExtResource("1_28mj2")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2wga0"]
+atlas = ExtResource("1_28mj2")
+region = Rect2(200, 0, 100, 100)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_i0635")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kjry5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_2wga0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kjry5")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_i0635")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]

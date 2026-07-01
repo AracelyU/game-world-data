@@ -1,0 +1,43 @@
+{
+  "id_world": 1,
+  "name_world": "Mundo 1",
+  "story_id": 6,
+  "texture_world": "huella.png",
+  "texture_slot": "slot.png",
+  "texture_slot_inv": "slot.png",
+  "bloqueo_parcial": "bloqueo_parcial.png",
+  "bloqueo_completo": "bloqueo_completo.png",
+  "texture_main_world": "guarderia_exterior_dia.png",
+  "texture_board_world": "board.png",
+  "items": [],
+  "characters": [],
+  "animated_objects": [],
+  "grid_main_layout": {
+	"grid_config": []
+  },
+  "grid_inventory_layout": {
+	"grid_config": []
+  },
+  "store": [],
+  "fusion_config": {
+	"fusion_items": []
+  },
+  "reward_config": {
+	"rewards": [
+	  {
+		"chapter": 1,
+		"scene": 1,
+		"rewards_id": [],
+		"exp": 100,
+		"coins_required": 0
+	  },
+	  {
+		"chapter": 1,
+		"scene": 2,
+		"rewards_id": [],
+		"exp": 50,
+		"coins_required": 0
+	  }
+	]
+  }
+}
