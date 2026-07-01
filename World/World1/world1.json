@@ -13,31 +13,31 @@
   "characters": [],
   "animated_objects": [],
   "grid_main_layout": {
-	"grid_config": []
+    "grid_config": []
   },
   "grid_inventory_layout": {
-	"grid_config": []
+    "grid_config": []
   },
   "store": [],
   "fusion_config": {
-	"fusion_items": []
+    "fusion_items": []
   },
   "reward_config": {
-	"rewards": [
-	  {
-		"chapter": 1,
-		"scene": 1,
-		"rewards_id": [],
-		"exp": 100,
-		"coins_required": 0
-	  },
-	  {
-		"chapter": 1,
-		"scene": 2,
-		"rewards_id": [],
-		"exp": 50,
-		"coins_required": 0
-	  }
-	]
+    "rewards": [
+      {
+        "chapter": 1,
+        "scene": 1,
+        "rewards_id": [],
+        "exp": 100,
+        "coins_required": 0
+      },
+      {
+        "chapter": 1,
+        "scene": 2,
+        "rewards_id": [],
+        "exp": 50,
+        "coins_required": 0
+      }
+    ]
   }
 }
