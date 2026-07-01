@@ -1,8 +1,8 @@
 [
     {
-        "dir": "World1"
+        "dir": "World/World1"
     },
     {
-        "dir": "World2"
+        "dir": "World/World2"
     }
 ]
