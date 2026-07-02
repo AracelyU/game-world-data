@@ -777,7 +777,7 @@
 			"character_id": "viejo",
 			"name": "Viejo",
 			"rarity": 2,
-			"portrait": "viejo.png"
+			"portrait": "viejo_normal.png"
 		}
 	],
 	"animated_objects": [
