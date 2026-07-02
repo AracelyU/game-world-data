@@ -1,0 +1,1197 @@
+{
+	"id_world": 2,
+	"name_world": "LA HORA AZUL",
+	"story_id": 4,
+	"texture_world": "mar.jpg",
+	"texture_slot": "slot.png",
+	"texture_slot_inv": "slot.png",
+	"bloqueo_parcial": "tablas_parcial.png",
+	"bloqueo_completo": "caja_bloqueo.png",
+	"texture_main_world": "res_vacio_dia.jpg",
+	"texture_board_world": "board.jpg",
+	"items": [
+		{
+			"item_id": "energy1",
+			"nombre": "energia I",
+			"tipo": "energy",
+			"nivel": 1,
+			"descripcion": "Una capsula de energia.",
+			"icono": "energy.png",
+			"is_fusion": true,
+			"precio": 100
+		},
+		{
+			"item_id": "energia_100",
+			"nombre": "Caja de energía",
+			"tipo": "box_energy",
+			"item_tipo": "limited_generator",
+			"generator_data": {
+				"category_chain": [
+					"energy"
+				],
+				"uses_max": 1,
+				"items": [
+					{
+						"id": "energy1",
+						"prob": 1
+					}
+				]
+			},
+			"nivel": 1,
+			"descripcion": "Un solo item, +100 de energía.",
+			"icono": "item_energy.png",
+			"is_fusion": false,
+			"precio": 0
+		},
+		{
+			"item_id": "te1",
+			"nombre": "Hojas de té",
+			"tipo": "te",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "te/te1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "te2",
+			"nombre": "Bolsa de té",
+			"tipo": "te",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "te/te2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "te3",
+			"nombre": "Té verde",
+			"tipo": "te",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "te/te3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "te4",
+			"nombre": "Té negro",
+			"tipo": "te",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "te/te4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "te5",
+			"nombre": "Té pu'erh",
+			"tipo": "te",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "te/te5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "te6",
+			"nombre": "Té helado",
+			"tipo": "te",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "te/te6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "te7",
+			"nombre": "Matcha latte",
+			"tipo": "te",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "te/te7.png",
+			"is_fusion": false,
+			"precio": 24
+		},
+		{
+			"item_id": "cafe1",
+			"nombre": "grano de café",
+			"tipo": "cafe",
+			"nivel": 1,
+			"descripcion": "Un grano de café, simple y honesto.",
+			"icono": "cafe/cafe1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "cafe2",
+			"nombre": "granos de café",
+			"tipo": "cafe",
+			"nivel": 2,
+			"descripcion": "Granos de café, acompañados y calientitos.",
+			"icono": "cafe/cafe2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "cafe3",
+			"nombre": "Taza de café",
+			"tipo": "cafe",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "cafe/cafe3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "cafe4",
+			"nombre": "café americano",
+			"tipo": "cafe",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "cafe/cafe4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "cafe5",
+			"nombre": "café latte",
+			"tipo": "cafe",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "cafe/cafe5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "cafe6",
+			"nombre": "Cappuccino",
+			"tipo": "cafe",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "cafe/cafe6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "cafe7",
+			"nombre": "Café mocha",
+			"tipo": "cafe",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "cafe/cafe7.png",
+			"is_fusion": true,
+			"precio": 24
+		},
+		{
+			"item_id": "cafe8",
+			"nombre": "Café helado",
+			"tipo": "cafe",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "cafe/cafe8.png",
+			"is_fusion": false,
+			"precio": 36
+		},
+		{
+			"item_id": "generator_cafeteria1",
+			"nombre": "tornillo",
+			"tipo": "generator_cafeteria",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria1.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_cafeteria2",
+			"nombre": "par de tornillos",
+			"tipo": "generator_cafeteria",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria2.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_cafeteria3",
+			"item_tipo": "generator",
+			"nombre": "Molinillo de café manual",
+			"tipo": "generator_cafeteria",
+			"nivel": 3,
+			"descripcion": "Solo produce cafés.",
+			"icono": "generator_cafeteria/generator_cafeteria3.png",
+			"is_fusion": true,
+			"generator_data": {
+				"category_chain": [
+					"cafe"
+				],
+				"uses_max": 32,
+				"cooldown_max": 3600,
+				"items": [
+					{
+						"id": "cafe1",
+						"prob": 1
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_cafeteria4",
+			"item_tipo": "generator",
+			"nombre": "Tetera de barro",
+			"tipo": "generator_cafeteria",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria4.png",
+			"is_fusion": true,
+			"generator_data": {
+				"category_chain": [
+					"cafe",
+					"te"
+				],
+				"uses_max": 64,
+				"cooldown_max": 3400,
+				"items": [
+					{
+						"id": "cafe1",
+						"prob": 0.6
+					},
+					{
+						"id": "te1",
+						"prob": 0.4
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_cafeteria5",
+			"item_tipo": "generator",
+			"nombre": "Cafetera de filtro",
+			"tipo": "generator_cafeteria",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria5.png",
+			"is_fusion": true,
+			"generator_data": {
+				"category_chain": [
+					"cafe",
+					"te"
+				],
+				"uses_max": 75,
+				"cooldown_max": 3200,
+				"items": [
+					{
+						"id": "cafe1",
+						"prob": 0.4
+					},
+					{
+						"id": "te1",
+						"prob": 0.4
+					},
+					{
+						"id": "cafe2",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_cafeteria6",
+			"item_tipo": "generator",
+			"nombre": "Máquina de café básica",
+			"tipo": "generator_cafeteria",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria6.png",
+			"is_fusion": true,
+			"generator_data": {
+				"category_chain": [
+					"cafe",
+					"te"
+				],
+				"uses_max": 85,
+				"cooldown_max": 3000,
+				"items": [
+					{
+						"id": "cafe1",
+						"prob": 0.25
+					},
+					{
+						"id": "te1",
+						"prob": 0.25
+					},
+					{
+						"id": "cafe2",
+						"prob": 0.25
+					},
+					{
+						"id": "te2",
+						"prob": 0.25
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_cafeteria7",
+			"item_tipo": "generator",
+			"nombre": "Máquina de café avanzada",
+			"tipo": "generator_cafeteria",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "generator_cafeteria/generator_cafeteria7.png",
+			"is_fusion": false,
+			"generator_data": {
+				"category_chain": [
+					"cafe",
+					"te"
+				],
+				"uses_max": 95,
+				"cooldown_max": 2800,
+				"items": [
+					{
+						"id": "cafe1",
+						"prob": 0.2
+					},
+					{
+						"id": "te1",
+						"prob": 0.2
+					},
+					{
+						"id": "cafe2",
+						"prob": 0.2
+					},
+					{
+						"id": "te2",
+						"prob": 0.2
+					},
+					{
+						"id": "cafe3",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_panaderia1",
+			"nombre": "Astilla de madera",
+			"tipo": "generator_panaderia",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia1.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia2",
+			"nombre": "Tabla de madera",
+			"tipo": "generator_panaderia",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia2.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia3",
+			"nombre": "Rodillo",
+			"tipo": "generator_panaderia",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia3.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia4",
+			"nombre": "Tabla de amasar",
+			"tipo": "generator_panaderia",
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pan"
+				],
+				"uses_max": 32,
+				"cooldown_max": 3600,
+				"items": [
+					{
+						"id": "pan1",
+						"prob": 1
+					}
+				]
+			},
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia4.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia5",
+			"nombre": "Canasta con pan",
+			"tipo": "generator_panaderia",
+			"item_tipo": "generator",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia5.png",
+			"generator_data": {
+				"category_chain": [
+					"pan"
+				],
+				"uses_max": 64,
+				"cooldown_max": 3400,
+				"items": [
+					{
+						"id": "pan1",
+						"prob": 0.6
+					},
+					{
+						"id": "pan2",
+						"prob": 0.4
+					}
+				]
+			},
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia6",
+			"nombre": "Horno pequeño",
+			"tipo": "generator_panaderia",
+			"item_tipo": "generator",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia6.png",
+			"generator_data": {
+				"category_chain": [
+					"pan",
+					"masa"
+				],
+				"uses_max": 75,
+				"cooldown_max": 3200,
+				"items": [
+					{
+						"id": "pan1",
+						"prob": 0.4
+					},
+					{
+						"id": "pan2",
+						"prob": 0.4
+					},
+					{
+						"id": "masa1",
+						"prob": 0.2
+					}
+				]
+			},
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia7",
+			"nombre": "Horno mediano",
+			"tipo": "generator_panaderia",
+			"item_tipo": "generator",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia7.png",
+			"generator_data": {
+				"category_chain": [
+					"pan",
+					"masa"
+				],
+				"uses_max": 85,
+				"cooldown_max": 3000,
+				"items": [
+					{
+						"id": "pan1",
+						"prob": 0.25
+					},
+					{
+						"id": "pan2",
+						"prob": 0.25
+					},
+					{
+						"id": "masa1",
+						"prob": 0.25
+					},
+					{
+						"id": "masa1",
+						"prob": 0.25
+					}
+				]
+			},
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_panaderia8",
+			"nombre": "Horno avanzado",
+			"tipo": "generator_panaderia",
+			"item_tipo": "generator",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia8.png",
+			"generator_data": {
+				"category_chain": [
+					"pan",
+					"masa"
+				],
+				"uses_max": 95,
+				"cooldown_max": 2800,
+				"items": [
+					{
+						"id": "pan1",
+						"prob": 0.2
+					},
+					{
+						"id": "pan2",
+						"prob": 0.2
+					},
+					{
+						"id": "masa1",
+						"prob": 0.2
+					},
+					{
+						"id": "masa1",
+						"prob": 0.2
+					},
+					{
+						"id": "pan3",
+						"prob": 0.2
+					}
+				]
+			},
+			"is_fusion": false
+		},
+		{
+			"item_id": "masa1",
+			"nombre": "Masa de empanada",
+			"tipo": "masa",
+			"nivel": 1,
+			"descripcion": "Base cerrada a mano con forma de empanadilla, lista para hornear.",
+			"icono": "masa/masa1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "masa2",
+			"nombre": "Empanadilla",
+			"tipo": "masa",
+			"nivel": 2,
+			"descripcion": "Pequeña y tostada, una empanadilla con relleno.",
+			"icono": "masa/masa2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "masa3",
+			"nombre": "Calzone",
+			"tipo": "masa",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "masa/masa3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "masa4",
+			"nombre": "Stromboli",
+			"tipo": "masa",
+			"nivel": 4,
+			"descripcion": "Rollos largos rellenos de embutidos y queso.",
+			"icono": "masa/masa4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "masa5",
+			"nombre": "Focaccia",
+			"tipo": "masa",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "masa/masa5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "masa6",
+			"nombre": "Hornazo",
+			"tipo": "masa",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "masa/masa6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "masa7",
+			"nombre": "Pizza",
+			"tipo": "masa",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "masa/masa7.png",
+			"is_fusion": false,
+			"precio": 24
+		},
+		{
+			"item_id": "pan1",
+			"nombre": "Harina",
+			"tipo": "pan",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "pan/pan1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "pan2",
+			"nombre": "Masa de pan",
+			"tipo": "pan",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "pan/pan2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "pan3",
+			"nombre": "Hogaza pequeña",
+			"tipo": "pan",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "pan/pan3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "pan4",
+			"nombre": "Barra de pan",
+			"tipo": "pan",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "pan/pan4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "pan5",
+			"nombre": "Pan rebanado",
+			"tipo": "pan",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "pan/pan5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "pan6",
+			"nombre": "Tostada con mermelada",
+			"tipo": "pan",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "pan/pan6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "pan7",
+			"nombre": "Tostada con huevo",
+			"tipo": "pan",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "pan/pan7.png",
+			"is_fusion": true,
+			"precio": 24
+		},
+		{
+			"item_id": "pan8",
+			"nombre": "Sandwichs",
+			"tipo": "pan",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "pan/pan8.png",
+			"is_fusion": true,
+			"precio": 36
+		},
+		{
+			"item_id": "pan9",
+			"nombre": "Hamburguesa",
+			"tipo": "pan",
+			"nivel": 9,
+			"descripcion": "",
+			"icono": "pan/pan9.png",
+			"is_fusion": false,
+			"precio": 54
+		},
+		{
+			"item_id": "generator_panaderia3",
+			"nombre": "Bolsa de ingredientes",
+			"tipo": "generator_panaderia",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia3.png",
+			"is_fusion": true,
+			"precio": 0
+		},
+		{
+			"item_id": "generator_panaderia4",
+			"nombre": "Canasta de masa y panes",
+			"tipo": "generator_panaderia",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_panaderia/generator_panaderia4.png",
+			"is_fusion": true,
+			"precio": 0
+		}
+	],
+	"characters": [
+		{
+			"character_id": "alma_chibi",
+			"name": "Alma",
+			"portrait": "alma_chibi.png",
+			"rarity": 2
+		},
+		{
+			"character_id": "elias_chibi",
+			"name": "Elías",
+			"portrait": "elias_chibi.png",
+			"rarity": 3
+		},
+		{
+			"character_id": "nico_chibi",
+			"name": "Elías",
+			"portrait": "nico_chibi.png",
+			"rarity": 3
+		},
+		{
+			"character_id": "vera_chibi",
+			"name": "Elías",
+			"portrait": "vera_chibi.png",
+			"rarity": 3
+		},
+		{
+			"character_id": "mujer",
+			"name": "Mujer casada",
+			"rarity": 3,
+			"portrait": "mujer_casada.png"
+		},
+		{
+			"character_id": "hombre",
+			"name": "Hombre casado",
+			"portrait": "hombre_casado.png",
+			"rarity": 3
+		},
+		{
+			"character_id": "viejo",
+			"name": "Viejo",
+			"rarity": 2,
+			"portrait": "viejo_normal.png"
+		}
+	],
+	"animated_objects": [
+		{
+			"id": "plant",
+			"src": "res://World/World2/assets/animations/planta.tres",
+			"position": [
+				100,
+				750
+			],
+			"scale": [
+				2,
+				2
+			],
+			"z_index": 1
+		}
+	],
+	"grid_main_layout": {
+		"grid_config": [
+			{
+				"slot": 0,
+				"id": "generator_cafeteria3",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 1,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 2,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 7,
+				"id": "cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 8,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 9,
+				"id": "cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 10,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 12,
+				"id": "cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 11,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 16,
+				"id": "cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 22,
+				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 27,
+				"id": "cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 32,
+				"id": "energy1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 37,
+				"id": "energia_100",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 40,
+				"id": "generator_panaderia1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 41,
+				"id": "generator_panaderia1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 42,
+				"id": "masa1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 43,
+				"id": "masa2",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 44,
+				"id": "pan3",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 45,
+				"id": "pan2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 46,
+				"id": "pan1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 47,
+				"id": "generator_panaderia1",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 48,
+				"id": "generator_cafeteria3",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 49,
+				"id": "generator_cafeteria4",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			}
+		]
+	},
+	"grid_inventory_layout": {
+		"grid_config": []
+	},
+	"store": [
+		{
+			"id": "energia_100",
+			"dimension_id": 2,
+			"cost": 5,
+			"modifiable_mechanic_videogame_id": 34
+		}
+	],
+	"fusion_config": {
+		"fusion_items": [
+			{
+				"combination": "cafe1+cafe1",
+				"result": "cafe2"
+			},
+			{
+				"combination": "cafe2+cafe2",
+				"result": "cafe3"
+			},
+			{
+				"combination": "cafe3+cafe3",
+				"result": "cafe4"
+			},
+			{
+				"combination": "cafe4+cafe4",
+				"result": "cafe5"
+			},
+			{
+				"combination": "cafe5+cafe5",
+				"result": "cafe6"
+			},
+			{
+				"combination": "cafe6+cafe6",
+				"result": "cafe7"
+			},
+			{
+				"combination": "cafe7+cafe7",
+				"result": "cafe8"
+			},
+			{
+				"combination": "te1+te1",
+				"result": "te2"
+			},
+			{
+				"combination": "te2+te2",
+				"result": "te3"
+			},
+			{
+				"combination": "te3+te3",
+				"result": "te4"
+			},
+			{
+				"combination": "te4+te4",
+				"result": "te5"
+			},
+			{
+				"combination": "te5+te5",
+				"result": "te6"
+			},
+			{
+				"combination": "te6+te6",
+				"result": "te7"
+			},
+			{
+				"combination": "masa1+masa1",
+				"result": "masa2"
+			},
+			{
+				"combination": "masa2+masa2",
+				"result": "masa3"
+			},
+			{
+				"combination": "masa3+masa3",
+				"result": "masa4"
+			},
+			{
+				"combination": "masa4+masa4",
+				"result": "masa5"
+			},
+			{
+				"combination": "masa6+masa6",
+				"result": "masa7"
+			},
+			{
+				"combination": "masa5+masa5",
+				"result": "masa6"
+			},
+			{
+				"combination": "pan1+pan1",
+				"result": "pan2"
+			},
+			{
+				"combination": "pan2+pan2",
+				"result": "pan3"
+			},
+			{
+				"combination": "pan3+pan3",
+				"result": "pan4"
+			},
+			{
+				"combination": "pan4+pan4",
+				"result": "pan5"
+			},
+			{
+				"combination": "pan5+pan5",
+				"result": "pan6"
+			},
+			{
+				"combination": "pan6+pan6",
+				"result": "pan7"
+			},
+			{
+				"combination": "pan7+pan7",
+				"result": "pan8"
+			},
+			{
+				"combination": "pan8+pan8",
+				"result": "pan9"
+			},
+			{
+				"combination": "generator_panaderia1+generator_panaderia1",
+				"result": "generator_panaderia2"
+			},
+			{
+				"combination": "generator_panaderia2+generator_panaderia2",
+				"result": "generator_panaderia3"
+			},
+			{
+				"combination": "generator_panaderia3+generator_panaderia3",
+				"result": "generator_panaderia4"
+			},
+			{
+				"combination": "generator_panaderia4+generator_panaderia4",
+				"result": "generator_panaderia5"
+			},
+			{
+				"combination": "generator_panaderia5+generator_panaderia5",
+				"result": "generator_panaderia6"
+			},
+			{
+				"combination": "generator_panaderia6+generator_panaderia6",
+				"result": "generator_panaderia7"
+			},
+			{
+				"combination": "generator_panaderia7+generator_panaderia7",
+				"result": "generator_panaderia8"
+			},
+			{
+				"combination": "generator_cafeteria1+generator_cafeteria1",
+				"result": "generator_cafeteria2"
+			},
+			{
+				"combination": "generator_cafeteria2+generator_cafeteria2",
+				"result": "generator_cafeteria3"
+			},
+			{
+				"combination": "generator_cafeteria3+generator_cafeteria3",
+				"result": "generator_cafeteria4"
+			},
+			{
+				"combination": "generator_cafeteria4+generator_cafeteria4",
+				"result": "generator_cafeteria5"
+			},
+			{
+				"combination": "generator_cafeteria5+generator_cafeteria5",
+				"result": "generator_cafeteria6"
+			},
+			{
+				"combination": "generator_cafeteria6+generator_cafeteria6",
+				"result": "generator_cafeteria7"
+			}
+		]
+	},
+	"reward_config": {
+		"rewards": [
+			{
+				"chapter": 1,
+				"scene": 1,
+				"rewards_id": [
+					"cafe2",
+					"generator_panaderia1",
+					"generator_panaderia3"
+				],
+				"exp": 150,
+				"coins_required": 0
+			},
+			{
+				"chapter": 1,
+				"scene": 2,
+				"rewards_id": [
+					"generator_panaderia2",
+					"pan1",
+					"generator_panaderia3"
+				],
+				"exp": 100,
+				"coins_required": 25
+			},
+			{
+				"chapter": 1,
+				"scene": 3,
+				"rewards_id": [
+					"cafe2",
+					"generator_panaderia2"
+				],
+				"exp": 100,
+				"coins_required": 20
+			},
+			{
+				"chapter": 1,
+				"scene": 4,
+				"rewards_id": [
+					"cafe2",
+					"cafe1",
+					"generator_panaderia2"
+				],
+				"exp": 100,
+				"coins_required": 20
+			},
+			{
+				"chapter": 1,
+				"scene": 5,
+				"rewards_id": [
+					"cafe2"
+				],
+				"exp": 100,
+				"coins_required": 20
+			},
+			{
+				"chapter": 1,
+				"scene": 6,
+				"rewards_id": [
+					"cafe2",
+					"cafe1",
+					"cafe2"
+				],
+				"exp": 100,
+				"coins_required": 20
+			},
+			{
+				"chapter": 1,
+				"scene": 7,
+				"rewards_id": [
+					"cafe2"
+				],
+				"exp": 120,
+				"coins_required": 10
+			}
+		]
+	}
+}
