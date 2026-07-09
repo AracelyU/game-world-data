@@ -11,13 +11,33 @@
 	"texture_board_world": "board.jpg",
 	"items": [
 		{
-			"item_id": "energy1",
-			"nombre": "energia I",
+			"item_id": "energy_25",
+			"nombre": "energia",
 			"tipo": "energy",
 			"nivel": 1,
-			"descripcion": "Una capsula de energia.",
-			"icono": "energy.png",
+			"descripcion": "Una capsula de energia de menor capacidad.",
+			"icono": "energy/energy_25.png",
 			"is_fusion": true,
+			"precio": 25
+		},
+		{
+			"item_id": "energy_50",
+			"nombre": "energia",
+			"tipo": "energy",
+			"nivel": 2,
+			"descripcion": "Una capsula de energia de mediana capacidad.",
+			"icono": "energy/energy_50.png",
+			"is_fusion": true,
+			"precio": 50
+		},
+		{
+			"item_id": "energy_100",
+			"nombre": "energia",
+			"tipo": "energy",
+			"nivel": 3,
+			"descripcion": "Una capsula de energia de mayor capacidad.",
+			"icono": "energy/energy_25.png",
+			"is_fusion": false,
 			"precio": 100
 		},
 		{
@@ -32,7 +52,7 @@
 				"uses_max": 1,
 				"items": [
 					{
-						"id": "energy1",
+						"id": "energy_100",
 						"prob": 1
 					}
 				]
@@ -942,7 +962,7 @@
 	},
 	"store": [
 		{
-			"id": "energia_100",
+			"id": "energy_100",
 			"dimension_id": 2,
 			"cost": 5,
 			"modifiable_mechanic_videogame_id": 34
@@ -1109,6 +1129,14 @@
 			{
 				"combination": "generator_cafeteria6+generator_cafeteria6",
 				"result": "generator_cafeteria7"
+			},
+			{
+				"combination": "energy_25+energy25",
+				"result": "energy_50"
+			},
+			{
+				"combination": "energy_50+energy_50",
+				"result": "energy_100"
 			}
 		]
 	},
