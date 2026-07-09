@@ -1122,7 +1122,7 @@
 					"generator_panaderia1",
 					"generator_panaderia3"
 				],
-				"exp": 150,
+				"exp": 10,
 				"coins_required": 0
 			},
 			{
@@ -1133,8 +1133,8 @@
 					"pan1",
 					"generator_panaderia3"
 				],
-				"exp": 100,
-				"coins_required": 25
+				"exp": 12,
+				"coins_required": 20
 			},
 			{
 				"chapter": 1,
@@ -1143,8 +1143,8 @@
 					"cafe2",
 					"generator_panaderia2"
 				],
-				"exp": 100,
-				"coins_required": 20
+				"exp": 24,
+				"coins_required": 40
 			},
 			{
 				"chapter": 1,
@@ -1154,8 +1154,8 @@
 					"cafe1",
 					"generator_panaderia2"
 				],
-				"exp": 100,
-				"coins_required": 20
+				"exp": 36,
+				"coins_required": 60
 			},
 			{
 				"chapter": 1,
@@ -1163,8 +1163,8 @@
 				"rewards_id": [
 					"cafe2"
 				],
-				"exp": 100,
-				"coins_required": 20
+				"exp": 48,
+				"coins_required": 80
 			},
 			{
 				"chapter": 1,
@@ -1174,8 +1174,8 @@
 					"cafe1",
 					"cafe2"
 				],
-				"exp": 100,
-				"coins_required": 20
+				"exp": 60,
+				"coins_required": 100
 			},
 			{
 				"chapter": 1,
@@ -1183,8 +1183,26 @@
 				"rewards_id": [
 					"cafe2"
 				],
-				"exp": 120,
-				"coins_required": 10
+				"exp": 72,
+				"coins_required": 120
+			},
+			{
+				"chapter": 8,
+				"scene": 7,
+				"rewards_id": [
+					"cafe2"
+				],
+				"exp": 84,
+				"coins_required": 140
+			},
+			{
+				"chapter": 9,
+				"scene": 7,
+				"rewards_id": [
+					"cafe2"
+				],
+				"exp": 96,
+				"coins_required": 140
 			}
 		]
 	}
