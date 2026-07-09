@@ -738,46 +738,40 @@
 	],
 	"characters": [
 		{
-			"character_id": "alma_chibi",
-			"name": "Alma",
-			"portrait": "alma_chibi.png",
-			"rarity": 2
-		},
-		{
-			"character_id": "elias_chibi",
-			"name": "Elías",
-			"portrait": "elias_chibi.png",
-			"rarity": 3
-		},
-		{
-			"character_id": "nico_chibi",
-			"name": "Elías",
-			"portrait": "nico_chibi.png",
-			"rarity": 3
-		},
-		{
-			"character_id": "vera_chibi",
-			"name": "Elías",
-			"portrait": "vera_chibi.png",
-			"rarity": 3
-		},
-		{
-			"character_id": "mujer",
-			"name": "Mujer casada",
+			"character_id": "mia",
+			"name": "Mia",
 			"rarity": 3,
-			"portrait": "mujer_casada.png"
+			"portrait": "mia_normal.png"
 		},
 		{
-			"character_id": "hombre",
-			"name": "Hombre casado",
-			"portrait": "hombre_casado.png",
+			"character_id": "lucas",
+			"name": "Lucas",
+			"portrait": "lucas_normal.png",
 			"rarity": 3
 		},
 		{
-			"character_id": "viejo",
-			"name": "Viejo",
+			"character_id": "thomas",
+			"name": "Don. Thomas",
 			"rarity": 2,
-			"portrait": "viejo_normal.png"
+			"portrait": "thomas_normal.png"
+		},
+		{
+			"character_id": "nico",
+			"name": "Nico",
+			"rarity": 2,
+			"portrait": "nico_normal.png"
+		},
+		{
+			"character_id": "vera",
+			"name": "Vera",
+			"rarity": 2,
+			"portrait": "vera_normal.png"
+		},
+		{
+			"character_id": "elias",
+			"name": "Elías",
+			"rarity": 2,
+			"portrait": "elias_normal.png"
 		}
 	],
 	"animated_objects": [
