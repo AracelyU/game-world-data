@@ -6,9 +6,5 @@
     {
         "dir": "World/World2",
         "file": "world2.json"
-    },
-    {
-        "dir": "World/World3",
-        "file": "world3.json"
     }
 ]
