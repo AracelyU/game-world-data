@@ -36,7 +36,7 @@
 			"tipo": "energy",
 			"nivel": 3,
 			"descripcion": "Una capsula de energia de mayor capacidad.",
-			"icono": "energy/energy_25.png",
+			"icono": "energy/energy_100.png",
 			"is_fusion": false,
 			"precio": 100
 		},
