@@ -32,7 +32,7 @@
     },
     {
       "item_id": "maiz3",
-      "nombre": "Granos de maíz",
+      "nombre": "Semillas de maíz",
       "tipo": "maiz",
       "nivel": 3,
       "descripcion": "",
@@ -109,6 +109,76 @@
       "icono": "maiz/maiz10.png",
       "is_fusion": false,
       "precio": 81
+    },
+    {
+      "item_id": "tomate1",
+      "nombre": "Semilla de tomate",
+      "tipo": "tomate",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "tomate/tomate1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "tomate2",
+      "nombre": "Semillas de tomate",
+      "tipo": "tomate",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "tomate/tomate2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "tomate3",
+      "nombre": "Brote de tomate",
+      "tipo": "tomate",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "tomate/tomate3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "tomate4",
+      "nombre": "Tomate inmaduro",
+      "tipo": "tomate",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "tomate/tomate4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "tomate5",
+      "nombre": "Tomate maduro",
+      "tipo": "tomate",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "tomate/tomate5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "tomate6",
+      "nombre": "Grupo de tomates",
+      "tipo": "tomate",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "tomate/tomate6.png",
+      "is_fusion": true,
+      "precio": 16
+    },
+    {
+      "item_id": "tomate7",
+      "nombre": "Canasta de tomates",
+      "tipo": "tomate",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "tomate/tomate7.png",
+      "is_fusion": false,
+      "precio": 24
     }
   ],
   "characters": [],
@@ -130,6 +200,24 @@
       {
         "slot": 3,
         "id": "maiz3",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 4,
+        "id": "tomate3",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 5,
+        "id": "tomate1",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 6,
+        "id": "tomate2",
         "bloqueado": false,
         "bloqueado_completo": false
       }
@@ -176,6 +264,30 @@
       {
         "combination": "maiz9+maiz9",
         "result": "maiz10"
+      },
+      {
+        "combination": "tomate1+tomate1",
+        "result": "tomate2"
+      },
+      {
+        "combination": "tomate2+tomate2",
+        "result": "tomate3"
+      },
+      {
+        "combination": "tomate3+tomate3",
+        "result": "tomate4"
+      },
+      {
+        "combination": "tomate4+tomate4",
+        "result": "tomate5"
+      },
+      {
+        "combination": "tomate5+tomate5",
+        "result": "tomate6"
+      },
+      {
+        "combination": "tomate6+tomate6",
+        "result": "tomate7"
       }
     ]
   },
