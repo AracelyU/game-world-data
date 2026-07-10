@@ -2,7 +2,7 @@
 	"id_world": 2,
 	"name_world": "LA HORA AZUL",
 	"story_id": 4,
-	"texture_world": "mar.jpg",
+	"texture_world": "menu_res.png",
 	"texture_slot": "slot.png",
 	"texture_slot_inv": "slot.png",
 	"bloqueo_parcial": "tablas_parcial.png",

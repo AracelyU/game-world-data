@@ -1,26 +1,183 @@
 {
   "id_world": 1,
-  "name_world": "Mundo 1",
+  "name_world": "Campo abierto",
   "story_id": 6,
-  "texture_world": "huella.png",
+  "texture_world": "menu_camp.png",
   "texture_slot": "slot.png",
   "texture_slot_inv": "slot.png",
   "bloqueo_parcial": "bloqueo_parcial.png",
   "bloqueo_completo": "bloqueo_completo.png",
-  "texture_main_world": "guarderia_exterior_dia.png",
+  "texture_main_world": "camp_vacio_dia.png",
   "texture_board_world": "board.png",
-  "items": [],
+  "items": [
+    {
+      "item_id": "maiz1",
+      "nombre": "Semilla de maíz",
+      "tipo": "maiz",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "maiz/maiz1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "maiz2",
+      "nombre": "Granos de maíz",
+      "tipo": "maiz",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "maiz/maiz2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "maiz3",
+      "nombre": "Granos de maíz",
+      "tipo": "maiz",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "maiz/maiz3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "maiz4",
+      "nombre": "Mazorca pequeña",
+      "tipo": "maiz",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "maiz/maiz4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "maiz5",
+      "nombre": "Grupo de mazorcas",
+      "tipo": "maiz",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "maiz/maiz5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "maiz6",
+      "nombre": "Canasta de mazorcas",
+      "tipo": "maiz",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "maiz/maiz6.png",
+      "is_fusion": true,
+      "precio": 16
+    },
+    {
+      "item_id": "maiz7",
+      "nombre": "Saco de mazorca",
+      "tipo": "maiz",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "maiz/maiz7.png",
+      "is_fusion": true,
+      "precio": 24
+    },
+    {
+      "item_id": "maiz8",
+      "nombre": "Sacos de mazorcas",
+      "tipo": "maiz",
+      "nivel": 8,
+      "descripcion": "",
+      "icono": "maiz/maiz8.png",
+      "is_fusion": true,
+      "precio": 36
+    },
+    {
+      "item_id": "maiz9",
+      "nombre": "Carreta con mazorcas",
+      "tipo": "maiz",
+      "nivel": 9,
+      "descripcion": "",
+      "icono": "maiz/maiz9.png",
+      "is_fusion": true,
+      "precio": 54
+    },
+    {
+      "item_id": "maiz10",
+      "nombre": "Carreta metal con mazorcas",
+      "tipo": "maiz",
+      "nivel": 10,
+      "descripcion": "",
+      "icono": "maiz/maiz10.png",
+      "is_fusion": false,
+      "precio": 81
+    }
+  ],
   "characters": [],
   "animated_objects": [],
   "grid_main_layout": {
-    "grid_config": []
+    "grid_config": [
+      {
+        "slot": 0,
+        "id": "maiz1",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 1,
+        "id": "maiz2",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 3,
+        "id": "maiz3",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      }
+    ]
   },
   "grid_inventory_layout": {
     "grid_config": []
   },
   "store": [],
   "fusion_config": {
-    "fusion_items": []
+    "fusion_items": [
+      {
+        "combination": "maiz1+maiz1",
+        "result": "maiz2"
+      },
+      {
+        "combination": "maiz2+maiz2",
+        "result": "maiz3"
+      },
+      {
+        "combination": "maiz3+maiz3",
+        "result": "maiz4"
+      },
+      {
+        "combination": "maiz4+maiz4",
+        "result": "maiz5"
+      },
+      {
+        "combination": "maiz5+maiz5",
+        "result": "maiz6"
+      },
+      {
+        "combination": "maiz6+maiz6",
+        "result": "maiz7"
+      },
+      {
+        "combination": "maiz7+maiz7",
+        "result": "maiz8"
+      },
+      {
+        "combination": "maiz8+maiz8",
+        "result": "maiz9"
+      },
+      {
+        "combination": "maiz9+maiz9",
+        "result": "maiz10"
+      }
+    ]
   },
   "reward_config": {
     "rewards": [
