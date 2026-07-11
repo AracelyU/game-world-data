@@ -179,6 +179,159 @@
       "icono": "tomate/tomate7.png",
       "is_fusion": false,
       "precio": 24
+    },
+    {
+      "item_id": "generator_cultivo1",
+      "nombre": "Puñado de tierra",
+      "tipo": "generator_cultivo",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_cultivo2",
+      "nombre": "Monticulo de tierra",
+      "tipo": "generator_cultivo",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo2.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_cultivo3",
+      "nombre": "Bolsa de tierra",
+      "tipo": "generator_cultivo",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo3.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "maiz"
+        ],
+        "uses_max": 64,
+        "cooldown_max": 3400,
+        "items": [
+          {
+            "id": "maiz1",
+            "prob": 1
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_cultivo4",
+      "nombre": "Maceta con tierra",
+      "tipo": "generator_cultivo",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo4.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "maiz",
+          "tomate"
+        ],
+        "uses_max": 75,
+        "cooldown_max": 3200,
+        "items": [
+          {
+            "id": "maiz1",
+            "prob": 0.4
+          },
+          {
+            "id": "maiz2",
+            "prob": 0.4
+          },
+          {
+            "id": "tomate1",
+            "prob": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_cultivo5",
+      "nombre": "Caja con tierra",
+      "tipo": "generator_cultivo",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo5.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "maiz",
+          "tomate"
+        ],
+        "uses_max": 85,
+        "cooldown_max": 3000,
+        "items": [
+          {
+            "id": "maiz1",
+            "prob": 0.25
+          },
+          {
+            "id": "maiz2",
+            "prob": 0.25
+          },
+          {
+            "id": "tomate1",
+            "prob": 0.25
+          },
+          {
+            "id": "tomate2",
+            "prob": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_cultivo6",
+      "nombre": "Bandeja de germinación",
+      "tipo": "generator_cultivo",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "generator_cultivo/generator_cultivo6.png",
+      "is_fusion": false,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "maiz",
+          "tomate"
+        ],
+        "uses_max": 95,
+        "cooldown_max": 2800,
+        "items": [
+          {
+            "id": "maiz1",
+            "prob": 0.1
+          },
+          {
+            "id": "maiz2",
+            "prob": 0.2
+          },
+          {
+            "id": "tomate1",
+            "prob": 0.1
+          },
+          {
+            "id": "tomate2",
+            "prob": 0.2
+          },
+          {
+            "id": "maiz3",
+            "prob": 0.2
+          },
+          {
+            "id": "tomate3",
+            "prob": 0.2
+          }
+        ]
+      }
     }
   ],
   "characters": [],
@@ -218,6 +371,42 @@
       {
         "slot": 6,
         "id": "tomate2",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 7,
+        "id": "generator_cultivo1",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 8,
+        "id": "generator_cultivo1",
+        "bloqueado": true,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 9,
+        "id": "generator_cultivo1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 10,
+        "id": "generator_cultivo1",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 11,
+        "id": "generator_cultivo2",
+        "bloqueado": false,
+        "bloqueado_completo": false
+      },
+      {
+        "slot": 12,
+        "id": "generator_cultivo3",
         "bloqueado": false,
         "bloqueado_completo": false
       }
@@ -288,6 +477,26 @@
       {
         "combination": "tomate6+tomate6",
         "result": "tomate7"
+      },
+      {
+        "combination": "generator_cultivo1+generator_cultivo1",
+        "result": "generator_cultivo2"
+      },
+      {
+        "combination": "generator_cultivo2+generator_cultivo2",
+        "result": "generator_cultivo3"
+      },
+      {
+        "combination": "generator_cultivo3+generator_cultivo3",
+        "result": "generator_cultivo4"
+      },
+      {
+        "combination": "generator_cultivo4+generator_cultivo4",
+        "result": "generator_cultivo5"
+      },
+      {
+        "combination": "generator_cultivo5+generator_cultivo5",
+        "result": "generator_cultivo6"
       }
     ]
   },
