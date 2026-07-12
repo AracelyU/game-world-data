@@ -11,6 +11,55 @@
 	"texture_board_world": "board.jpg",
 	"items": [
 		{
+			"item_id": "duplicator1",
+			"nombre": "Espejo",
+			"tipo": "duplicator",
+			"nivel": 1,
+			"descripcion": "Fusiona con otro item para duplicarlo. No se puede usar en generadores, energía ni otros power up",
+			"icono": "powerup/duplicator1.png",
+			"is_fusion": false,
+			"item_tipo": "duplicator",
+			"target_type": "item",
+			"num_copies": 2
+			
+		},
+		{
+			"item_id": "divider1",
+			"nombre": "Martillo",
+			"tipo": "divider",
+			"nivel": 1,
+			"descripcion": "Fusiona con otro item para divirlo en tres items de menor nivel. No se puede usar en generadores, energía ni otros power up",
+			"icono": "powerup/divider1.png",
+			"is_fusion": false,
+			"item_tipo": "divider",
+			"target_type": "item",
+			"divide_factor": 3
+		},
+		{
+			"item_id": "evolver1",
+			"nombre": "Flecha ascendente",
+			"tipo": "evolver",
+			"nivel": 1,
+			"descripcion": "Fusiona con otro item para aumentar el nivel de ese item si tiene. No se puede usar en generadores, energía ni otros power up",
+			"icono": "powerup/evolver1.png",
+			"is_fusion": false,
+			"item_tipo": "evolver",
+			"target_type": "item",
+			"levels_up": 1
+		},
+		{
+			"item_id": "cooldown1",
+			"nombre": "Reloj de Arena",
+			"tipo": "cooldown",
+			"nivel": 1,
+			"descripcion": "Fusiona con un generador para reducir su tiempo de enfriamiento. Se puede fusionar consigo mismo para aumentar el tiempo",
+			"icono": "powerup/cooldown1.png",
+			"is_fusion": false,
+			"item_tipo": "cooldown_reducer",
+			"target_type": "generator",
+			"reduction_time": 2700
+		},
+		{
 			"item_id": "energy_25",
 			"nombre": "energia",
 			"tipo": "energy",
@@ -951,6 +1000,30 @@
 			"dimension_id": 2,
 			"cost": 5,
 			"modifiable_mechanic_videogame_id": 34
+		},
+		{
+			"id": "duplicator1",
+			"dimension_id": 2,
+			"cost": 8,
+			"modifiable_mechanic_videogame_id": 68
+		},
+		{
+			"id": "divider1",
+			"dimension_id": 2,
+			"cost": 6,
+			"modifiable_mechanic_videogame_id": 69
+		},
+		{
+			"id": "evolver1",
+			"dimension_id": 2,
+			"cost": 8,
+			"modifiable_mechanic_videogame_id": 70
+		},
+		{
+			"id": "cooldown1",
+			"dimension_id": 2,
+			"cost": 5,
+			"modifiable_mechanic_videogame_id": 71
 		}
 	],
 	"fusion_config": {
