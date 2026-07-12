@@ -794,21 +794,6 @@
 			"portrait": "elias_normal.png"
 		}
 	],
-	"animated_objects": [
-		{
-			"id": "plant",
-			"src": "res://World/World2/assets/animations/planta.tres",
-			"position": [
-				100,
-				750
-			],
-			"scale": [
-				2,
-				2
-			],
-			"z_index": 1
-		}
-	],
 	"grid_main_layout": {
 		"grid_config": [
 			{
