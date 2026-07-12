@@ -21,7 +21,6 @@
 			"item_tipo": "duplicator",
 			"target_type": "item",
 			"num_copies": 2
-			
 		},
 		{
 			"item_id": "divider1",
@@ -987,6 +986,66 @@
 				"slot": 49,
 				"id": "generator_cafeteria4",
 				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 50,
+				"id": "divider1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 51,
+				"id": "divider1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 52,
+				"id": "evolver1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 53,
+				"id": "evolver1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 54,
+				"id": "cooldown1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 55,
+				"id": "cooldown1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 56,
+				"id": "cooldown1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 57,
+				"id": "cooldown1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 58,
+				"id": "duplicator1",
+				"bloqueado": false,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 59,
+				"id": "duplicator1",
+				"bloqueado": false,
 				"bloqueado_completo": false
 			}
 		]
