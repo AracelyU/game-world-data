@@ -171,7 +171,7 @@
 			"descripcion": "",
 			"icono": "te/te7.png",
 			"is_fusion": false,
-			"precio": 24
+			"precio": 22
 		},
 		{
 			"item_id": "cafe1",
@@ -241,7 +241,7 @@
 			"descripcion": "",
 			"icono": "cafe/cafe7.png",
 			"is_fusion": true,
-			"precio": 24
+			"precio": 22
 		},
 		{
 			"item_id": "cafe8",
@@ -251,7 +251,7 @@
 			"descripcion": "",
 			"icono": "cafe/cafe8.png",
 			"is_fusion": false,
-			"precio": 36
+			"precio": 29
 		},
 		{
 			"item_id": "generator_cafeteria1",
@@ -683,7 +683,7 @@
 			"descripcion": "",
 			"icono": "masa/masa7.png",
 			"is_fusion": false,
-			"precio": 24
+			"precio": 22
 		},
 		{
 			"item_id": "pan1",
@@ -753,7 +753,7 @@
 			"descripcion": "",
 			"icono": "pan/pan7.png",
 			"is_fusion": true,
-			"precio": 24
+			"precio": 22
 		},
 		{
 			"item_id": "pan8",
@@ -763,7 +763,7 @@
 			"descripcion": "",
 			"icono": "pan/pan8.png",
 			"is_fusion": true,
-			"precio": 36
+			"precio": 29
 		},
 		{
 			"item_id": "pan9",
@@ -794,6 +794,422 @@
 			"icono": "generator_panaderia/generator_panaderia4.png",
 			"is_fusion": true,
 			"precio": 0
+		},
+		{
+			"item_id": "pescado1",
+			"nombre": "Sardina",
+			"tipo": "pescado",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "pescado/pescado1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "pescado2",
+			"nombre": "Caballa",
+			"tipo": "pescado",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "pescado/pescado2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "pescado3",
+			"nombre": "Lubina",
+			"tipo": "pescado",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "pescado/pescado3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "pescado4",
+			"nombre": "Dorada",
+			"tipo": "pescado",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "pescado/pescado4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "pescado5",
+			"nombre": "Filete de pescado",
+			"tipo": "pescado",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "pescado/pescado5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "pescado6",
+			"nombre": "Pescado frito",
+			"tipo": "pescado",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "pescado/pescado6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "pescado7",
+			"nombre": "Ceviche de pescado",
+			"tipo": "pescado",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "pescado/pescado7.png",
+			"is_fusion": true,
+			"precio": 22
+		},
+		{
+			"item_id": "pescado8",
+			"nombre": "Sushi",
+			"tipo": "pescado",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "pescado/pescado8.png",
+			"is_fusion": true,
+			"precio": 29
+		},
+		{
+			"item_id": "pescado9",
+			"nombre": "Arroz con pescado",
+			"tipo": "pescado",
+			"nivel": 9,
+			"descripcion": "",
+			"icono": "pescado/pescado9.png",
+			"is_fusion": true,
+			"precio": 37
+		},
+		{
+			"item_id": "pescado10",
+			"nombre": "Pescado a la plancha",
+			"tipo": "pescado",
+			"nivel": 10,
+			"descripcion": "",
+			"icono": "pescado/pescado10.png",
+			"is_fusion": true,
+			"precio": 46
+		},
+		{
+			"item_id": "pescado11",
+			"nombre": "Sopa de pescado",
+			"tipo": "pescado",
+			"nivel": 11,
+			"descripcion": "",
+			"icono": "pescado/pescado11.png",
+			"is_fusion": true,
+			"precio": 56
+		},
+		{
+			"item_id": "pescado12",
+			"nombre": "Paella de pescado",
+			"tipo": "pescado",
+			"nivel": 12,
+			"descripcion": "",
+			"icono": "pescado/pescado12.png",
+			"is_fusion": false,
+			"precio": 67
+		},
+		{
+			"item_id": "marisco1",
+			"nombre": "Caracola",
+			"tipo": "marisco",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "marisco/marisco1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "marisco2",
+			"nombre": "Mejillón",
+			"tipo": "marisco",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "marisco/marisco2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "marisco3",
+			"nombre": "Almeja",
+			"tipo": "marisco",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "marisco/marisco3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "marisco4",
+			"nombre": "Camarón",
+			"tipo": "marisco",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "marisco/marisco4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "marisco5",
+			"nombre": "Camarón con limón",
+			"tipo": "marisco",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "marisco/marisco5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "marisco6",
+			"nombre": "Brocheta de camarón",
+			"tipo": "marisco",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "marisco/marisco6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "marisco7",
+			"nombre": "Ceviche de camarón",
+			"tipo": "marisco",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "marisco/marisco7.png",
+			"is_fusion": true,
+			"precio": 22
+		},
+		{
+			"item_id": "marisco8",
+			"nombre": "Pulpo a la gallega",
+			"tipo": "marisco",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "marisco/marisco8.png",
+			"is_fusion": true,
+			"precio": 29
+		},
+		{
+			"item_id": "marisco9",
+			"nombre": "Mariscada",
+			"tipo": "marisco",
+			"nivel": 9,
+			"descripcion": "",
+			"icono": "marisco/marisco9.png",
+			"is_fusion": true,
+			"precio": 37
+		},
+		{
+			"item_id": "marisco10",
+			"nombre": "Arroz con mariscos",
+			"tipo": "marisco",
+			"nivel": 10,
+			"descripcion": "",
+			"icono": "marisco/marisco10.png",
+			"is_fusion": true,
+			"precio": 46
+		},
+		{
+			"item_id": "marisco11",
+			"nombre": "Sopa de mariscos",
+			"tipo": "marisco",
+			"nivel": 11,
+			"descripcion": "",
+			"icono": "marisco/marisco11.png",
+			"is_fusion": false,
+			"precio": 56
+		},
+		{
+			"item_id": "generator_mar1",
+			"nombre": "Anzuelo",
+			"tipo": "generator_mar",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar1.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_mar2",
+			"nombre": "Red de pesca",
+			"tipo": "generator_mar",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar2.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_mar3",
+			"nombre": "Canasta",
+			"tipo": "generator_mar",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar3.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_mar4",
+			"nombre": "Canasta con pescado",
+			"tipo": "generator_mar",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar4.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pescado"
+				],
+				"uses_max": 32,
+				"cooldown_max": 3600,
+				"items": [
+					{
+						"id": "pescado1",
+						"prob": 1
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_mar5",
+			"nombre": "Cubeta con pescado",
+			"tipo": "generator_mar",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar5.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pescado"
+				],
+				"uses_max": 64,
+				"cooldown_max": 3400,
+				"items": [
+					{
+						"id": "pescado1",
+						"prob": 0.6
+					},
+					{
+						"id": "pescado2",
+						"prob": 0.4
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_mar6",
+			"nombre": "Caja de mariscos",
+			"tipo": "generator_mar",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar6.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pescado", "marisco"
+				],
+				"uses_max": 75,
+				"cooldown_max": 3200,
+				"items": [
+					{
+						"id": "pescado1",
+						"prob": 0.4
+					},
+					{
+						"id": "pescado2",
+						"prob": 0.4
+					},
+					{
+						"id": "marisco1",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_mar7",
+			"nombre": "Saco de mariscos",
+			"tipo": "generator_mar",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar7.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pescado", "marisco"
+				],
+				"uses_max": 85,
+				"cooldown_max": 3000,
+				"items": [
+					{
+						"id": "pescado1",
+						"prob": 0.25
+					},
+					{
+						"id": "pescado2",
+						"prob": 0.25
+					},
+					{
+						"id": "marisco1",
+						"prob": 0.25
+					},
+					{
+						"id": "marisco2",
+						"prob": 0.25
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_mar8",
+			"nombre": "Barril de mariscos",
+			"tipo": "generator_mar",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "generator_mar/generator_mar8.png",
+			"is_fusion": false,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"pescado", "marisco"
+				],
+				"uses_max": 95,
+				"cooldown_max": 2800,
+				"items": [
+					{
+						"id": "pescado1",
+						"prob": 0.1
+					},
+					{
+						"id": "pescado2",
+						"prob": 0.2
+					},
+					{
+						"id": "pescado3",
+						"prob": 0.2
+					},
+					{
+						"id": "marisco1",
+						"prob": 0.1
+					},
+					{
+						"id": "marisco2",
+						"prob": 0.2
+					},
+					{
+						"id": "marisco3",
+						"prob": 0.2
+					}
+				]
+			}
 		}
 	],
 	"characters": [
@@ -899,6 +1315,12 @@
 			{
 				"slot": 22,
 				"id": "cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": false
+			},
+			{
+				"slot": 23,
+				"id": "generator_mar5",
 				"bloqueado": true,
 				"bloqueado_completo": false
 			},
@@ -1246,6 +1668,102 @@
 			{
 				"combination": "energy_50+energy_50",
 				"result": "energy_100"
+			},
+			{
+				"combination": "pescado1+pescado1",
+				"result": "pescado2"
+			},
+			{
+				"combination": "pescado2+pescado2",
+				"result": "pescado3"
+			},
+			{
+				"combination": "pescado3+pescado3",
+				"result": "pescado4"
+			},
+			{
+				"combination": "pescado4+pescado4",
+				"result": "pescado5"
+			},
+			{
+				"combination": "pescado6+pescado6",
+				"result": "pescado7"
+			},
+			{
+				"combination": "pescado8+pescado8",
+				"result": "pescado9"
+			},
+			{
+				"combination": "pescado10+pescado10",
+				"result": "pescado11"
+			},
+			{
+				"combination": "pescado11+pescado11",
+				"result": "pescado12"
+			},
+			{
+				"combination": "marisco1+marisco1",
+				"result": "marisco2"
+			},
+			{
+				"combination": "marisco2+marisco2",
+				"result": "marisco3"
+			},
+			{
+				"combination": "marisco3+marisco3",
+				"result": "marisco4"
+			},
+			{
+				"combination": "marisco4+marisco4",
+				"result": "marisco5"
+			},
+			{
+				"combination": "marisco5+marisco5",
+				"result": "marisco6"
+			},
+			{
+				"combination": "marisco6+marisco6",
+				"result": "marisco7"
+			},
+			{
+				"combination": "marisco7+marisco7",
+				"result": "marisco8"
+			},
+			{
+				"combination": "marisco8+marisco8",
+				"result": "marisco9"
+			},
+			{
+				"combination": "marisco10+marisco10",
+				"result": "marisco11"
+			},
+			{
+				"combination": "generator_mar1+generator_mar1",
+				"result": "generator_mar2"
+			},
+			{
+				"combination": "generator_mar2+generator_mar2",
+				"result": "generator_mar3"
+			},
+			{
+				"combination": "generator_mar3+generator_mar3",
+				"result": "generator_mar4"
+			},
+			{
+				"combination": "generator_mar4+generator_mar4",
+				"result": "generator_mar5"
+			},
+			{
+				"combination": "generator_mar5+generator_mar5",
+				"result": "generator_mar6"
+			},
+			{
+				"combination": "generator_mar6+generator_mar6",
+				"result": "generator_mar7"
+			},
+			{
+				"combination": "generator_mar7+generator_mar7",
+				"result": "generator_mar8"
 			}
 		]
 	},

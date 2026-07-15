@@ -78,7 +78,7 @@
       "descripcion": "",
       "icono": "maiz/maiz7.png",
       "is_fusion": true,
-      "precio": 24
+      "precio": 22
     },
     {
       "item_id": "maiz8",
@@ -88,7 +88,7 @@
       "descripcion": "",
       "icono": "maiz/maiz8.png",
       "is_fusion": true,
-      "precio": 36
+      "precio": 29
     },
     {
       "item_id": "maiz9",
@@ -98,7 +98,7 @@
       "descripcion": "",
       "icono": "maiz/maiz9.png",
       "is_fusion": true,
-      "precio": 54
+      "precio": 37
     },
     {
       "item_id": "maiz10",
@@ -108,7 +108,7 @@
       "descripcion": "",
       "icono": "maiz/maiz10.png",
       "is_fusion": false,
-      "precio": 81
+      "precio": 46
     },
     {
       "item_id": "tomate1",
@@ -178,7 +178,7 @@
       "descripcion": "",
       "icono": "tomate/tomate7.png",
       "is_fusion": false,
-      "precio": 24
+      "precio": 22
     },
     {
       "item_id": "generator_cultivo1",
@@ -504,16 +504,23 @@
       {
         "chapter": 1,
         "scene": 1,
-        "rewards_id": [],
-        "exp": 100,
+        "rewards_id": ["maiz4"],
+        "exp": 10,
         "coins_required": 0
       },
       {
         "chapter": 1,
         "scene": 2,
-        "rewards_id": [],
-        "exp": 50,
-        "coins_required": 0
+        "rewards_id": ["maiz1"],
+        "exp": 12,
+        "coins_required": 20
+      },
+      {
+        "chapter": 1,
+        "scene": 3,
+        "rewards_id": ["maiz5"],
+        "exp": 24,
+        "coins_required": 40
       }
     ]
   }
