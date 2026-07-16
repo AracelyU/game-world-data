@@ -871,37 +871,8 @@
 			"precio": 37
 		},
 		{
-			"item_id": "pescado10",
-			"nombre": "Pescado a la plancha",
-			"tipo": "pescado",
-			"nivel": 10,
-			"descripcion": "",
-			"icono": "pescado/pescado10.png",
-			"is_fusion": true,
-			"precio": 46
-		},
-		{
-			"item_id": "pescado11",
-			"nombre": "Sopa de pescado",
-			"tipo": "pescado",
-			"nivel": 11,
-			"descripcion": "",
-			"icono": "pescado/pescado11.png",
-			"is_fusion": true,
-			"precio": 56
-		},
-		{
-			"item_id": "pescado12",
-			"nombre": "Paella de pescado",
-			"tipo": "pescado",
-			"nivel": 12,
-			"descripcion": "",
-			"icono": "pescado/pescado12.png",
-			"precio": 67
-		},
-		{
 			"item_id": "marisco1",
-			"nombre": "Caracola",
+			"nombre": "Viera",
 			"tipo": "marisco",
 			"nivel": 1,
 			"descripcion": "",
@@ -1028,7 +999,7 @@
 		},
 		{
 			"item_id": "generator_mar3",
-			"nombre": "Canasta",
+			"nombre": "Hielera",
 			"tipo": "generator_mar",
 			"nivel": 3,
 			"descripcion": "",
@@ -1037,7 +1008,7 @@
 		},
 		{
 			"item_id": "generator_mar4",
-			"nombre": "Canasta con pescado",
+			"nombre": "Hielera con pescado",
 			"tipo": "generator_mar",
 			"nivel": 4,
 			"descripcion": "",
@@ -1060,7 +1031,7 @@
 		},
 		{
 			"item_id": "generator_mar5",
-			"nombre": "Cubeta con pescado",
+			"nombre": "Hielera con pescados",
 			"tipo": "generator_mar",
 			"nivel": 5,
 			"descripcion": "",
@@ -1087,7 +1058,7 @@
 		},
 		{
 			"item_id": "generator_mar6",
-			"nombre": "Caja de mariscos",
+			"nombre": "Hielera con pescados y marisco",
 			"tipo": "generator_mar",
 			"nivel": 6,
 			"descripcion": "",
@@ -1119,7 +1090,7 @@
 		},
 		{
 			"item_id": "generator_mar7",
-			"nombre": "Saco de mariscos",
+			"nombre": "Hielera con pescados y mariscos",
 			"tipo": "generator_mar",
 			"nivel": 7,
 			"descripcion": "",
@@ -1149,49 +1120,6 @@
 					{
 						"id": "marisco2",
 						"prob": 0.25
-					}
-				]
-			}
-		},
-		{
-			"item_id": "generator_mar8",
-			"nombre": "Barril de mariscos",
-			"tipo": "generator_mar",
-			"nivel": 8,
-			"descripcion": "",
-			"icono": "generator_mar/generator_mar8.png",
-			"item_tipo": "generator",
-			"generator_data": {
-				"category_chain": [
-					"pescado",
-					"marisco"
-				],
-				"uses_max": 95,
-				"cooldown_max": 2800,
-				"items": [
-					{
-						"id": "pescado1",
-						"prob": 0.1
-					},
-					{
-						"id": "pescado2",
-						"prob": 0.2
-					},
-					{
-						"id": "pescado3",
-						"prob": 0.2
-					},
-					{
-						"id": "marisco1",
-						"prob": 0.1
-					},
-					{
-						"id": "marisco2",
-						"prob": 0.2
-					},
-					{
-						"id": "marisco3",
-						"prob": 0.2
 					}
 				]
 			}
@@ -1633,14 +1561,6 @@
 				"result": "pescado9"
 			},
 			{
-				"combination": "pescado10+pescado10",
-				"result": "pescado11"
-			},
-			{
-				"combination": "pescado11+pescado11",
-				"result": "pescado12"
-			},
-			{
 				"combination": "marisco1+marisco1",
 				"result": "marisco2"
 			},
@@ -1699,10 +1619,6 @@
 			{
 				"combination": "generator_mar6+generator_mar6",
 				"result": "generator_mar7"
-			},
-			{
-				"combination": "generator_mar7+generator_mar7",
-				"result": "generator_mar8"
 			}
 		]
 	},
