@@ -11,71 +11,6 @@
   "texture_board_world": "board.png",
   "items": [
     {
-      "item_id": "duplicator1",
-      "nombre": "Espejo",
-      "tipo": "duplicator",
-      "nivel": 1,
-      "descripcion": "Fusiona con otro item para duplicarlo. No se puede usar en generadores, energía ni otros power up",
-      "icono": "powerup/duplicator1.png",
-      "item_tipo": "duplicator"
-    },
-    {
-      "item_id": "divider1",
-      "nombre": "Martillo",
-      "tipo": "divider",
-      "nivel": 1,
-      "descripcion": "Fusiona con otro item para divirlo en tres items de menor nivel. No se puede usar en generadores, energía ni otros power up",
-      "icono": "powerup/divider1.png",
-      "item_tipo": "divider"
-    },
-    {
-      "item_id": "evolver1",
-      "nombre": "Flecha ascendente",
-      "tipo": "evolver",
-      "nivel": 1,
-      "descripcion": "Fusiona con otro item para aumentar el nivel de ese item si tiene. No se puede usar en generadores, energía ni otros power up",
-      "icono": "powerup/evolver1.png",
-      "item_tipo": "evolver"
-    },
-    {
-      "item_id": "cooldown1",
-      "nombre": "Reloj de Arena",
-      "tipo": "cooldown",
-      "nivel": 1,
-      "descripcion": "Fusiona con un generador para reducir su tiempo de enfriamiento. Se puede fusionar consigo mismo para aumentar el tiempo",
-      "icono": "powerup/cooldown1.png",
-      "item_tipo": "cooldown_reducer"
-    },
-    {
-      "item_id": "energy_25",
-      "nombre": "energia",
-      "tipo": "energy",
-      "nivel": 1,
-      "descripcion": "Una capsula de energia de menor capacidad.",
-      "icono": "energy/energy_25.png",
-      "is_fusion": true,
-      "precio": 25
-    },
-    {
-      "item_id": "energy_50",
-      "nombre": "energia",
-      "tipo": "energy",
-      "nivel": 2,
-      "descripcion": "Una capsula de energia de mediana capacidad.",
-      "icono": "energy/energy_50.png",
-      "is_fusion": true,
-      "precio": 50
-    },
-    {
-      "item_id": "energy_100",
-      "nombre": "energia",
-      "tipo": "energy",
-      "nivel": 3,
-      "descripcion": "Una capsula de energia de mayor capacidad.",
-      "icono": "energy/energy_100.png",
-      "precio": 100
-    },
-    {
       "item_id": "maiz1",
       "nombre": "Semilla de maíz",
       "tipo": "maiz",
@@ -1061,38 +996,7 @@
   "grid_inventory_layout": {
     "grid_config": []
   },
-  "store": [
-    {
-      "id": "energy_100",
-      "dimension_id": 2,
-      "cost": 5,
-      "modifiable_mechanic_videogame_id": 34
-    },
-    {
-      "id": "duplicator1",
-      "dimension_id": 2,
-      "cost": 8,
-      "modifiable_mechanic_videogame_id": 68
-    },
-    {
-      "id": "divider1",
-      "dimension_id": 2,
-      "cost": 6,
-      "modifiable_mechanic_videogame_id": 69
-    },
-    {
-      "id": "evolver1",
-      "dimension_id": 2,
-      "cost": 8,
-      "modifiable_mechanic_videogame_id": 70
-    },
-    {
-      "id": "cooldown1",
-      "dimension_id": 2,
-      "cost": 5,
-      "modifiable_mechanic_videogame_id": 71
-    }
-  ],
+  "store": [],
   "fusion_config": {
     "fusion_items": [
       {
@@ -1314,14 +1218,6 @@
       {
         "combination": "generator_flores3+generator_flores3",
         "result": "generator_flores4"
-      },
-      {
-        "combination": "energy_25+energy25",
-        "result": "energy_50"
-      },
-      {
-        "combination": "energy_50+energy_50",
-        "result": "energy_100"
       }
     ]
   },
