@@ -107,7 +107,6 @@
       "nivel": 10,
       "descripcion": "",
       "icono": "maiz/maiz10.png",
-      "is_fusion": false,
       "precio": 46
     },
     {
@@ -177,7 +176,6 @@
       "nivel": 7,
       "descripcion": "",
       "icono": "tomate/tomate7.png",
-      "is_fusion": false,
       "precio": 22
     },
     {
@@ -296,7 +294,6 @@
       "nivel": 6,
       "descripcion": "",
       "icono": "generator_cultivo/generator_cultivo6.png",
-      "is_fusion": false,
       "item_tipo": "generator",
       "generator_data": {
         "category_chain": [
@@ -332,6 +329,576 @@
           }
         ]
       }
+    },
+    {
+      "item_id": "lacteo1",
+      "nombre": "Cubeta de leche",
+      "tipo": "lacteo",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "lacteo/lacteo1.png",
+      "precio": 1,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo2",
+      "nombre": "Jarra de leche",
+      "tipo": "lacteo",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "lacteo/lacteo2.png",
+      "precio": 2,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo3",
+      "nombre": "Queso fresco",
+      "tipo": "lacteo",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "lacteo/lacteo3.png",
+      "precio": 4,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo4",
+      "nombre": "Queso curado",
+      "tipo": "lacteo",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "lacteo/lacteo4.png",
+      "precio": 7,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo5",
+      "nombre": "Queso rallado",
+      "tipo": "lacteo",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "lacteo/lacteo5.png",
+      "precio": 11,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo6",
+      "nombre": "Tabla de quesos",
+      "tipo": "lacteo",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "lacteo/lacteo6.png",
+      "precio": 16,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo7",
+      "nombre": "Yogur",
+      "tipo": "lacteo",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "lacteo/lacteo7.png",
+      "precio": 22,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo8",
+      "nombre": "Crema",
+      "tipo": "lacteo",
+      "nivel": 8,
+      "descripcion": "",
+      "icono": "lacteo/lacteo8.png",
+      "precio": 29,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo9",
+      "nombre": "Mantequilla",
+      "tipo": "lacteo",
+      "nivel": 9,
+      "descripcion": "",
+      "icono": "lacteo/lacteo9.png",
+      "precio": 37,
+      "is_fusion": true
+    },
+    {
+      "item_id": "lacteo10",
+      "nombre": "Helado de leche",
+      "tipo": "lacteo",
+      "nivel": 10,
+      "descripcion": "",
+      "icono": "lacteo/lacteo10.png",
+      "precio": 46
+    },
+    {
+      "item_id": "huevo1",
+      "nombre": "Huevo",
+      "tipo": "huevo",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "huevo/huevo1.png",
+      "precio": 1,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo2",
+      "nombre": "Huevos",
+      "tipo": "huevo",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "huevo/huevo2.png",
+      "precio": 2,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo3",
+      "nombre": "Huevos duros",
+      "tipo": "huevo",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "huevo/huevo3.png",
+      "precio": 4,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo4",
+      "nombre": "Tortilla de huevo",
+      "tipo": "huevo",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "huevo/huevo4.png",
+      "precio": 7,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo5",
+      "nombre": "Huevos fritos",
+      "tipo": "huevo",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "huevo/huevo5.png",
+      "precio": 11,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo6",
+      "nombre": "Huevos revueltos",
+      "tipo": "huevo",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "huevo/huevo6.png",
+      "precio": 16,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo7",
+      "nombre": "Huevos rellenos",
+      "tipo": "huevo",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "huevo/huevo7.png",
+      "precio": 22,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo8",
+      "nombre": "Huevos benedictinos",
+      "tipo": "huevo",
+      "nivel": 8,
+      "descripcion": "",
+      "icono": "huevo/huevo8.png",
+      "precio": 29,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo9",
+      "nombre": "Omelet",
+      "tipo": "huevo",
+      "nivel": 9,
+      "descripcion": "",
+      "icono": "huevo/huevo9.png",
+      "precio": 37,
+      "is_fusion": true
+    },
+    {
+      "item_id": "huevo10",
+      "nombre": "Frittata",
+      "tipo": "huevo",
+      "nivel": 10,
+      "descripcion": "",
+      "icono": "huevo/huevo10.png",
+      "precio": 46
+    },
+    {
+      "item_id": "generator_establo1",
+      "nombre": "Heno",
+      "tipo": "generator_establo",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_establo/generator_establo1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_establo2",
+      "nombre": "Gallinero",
+      "tipo": "generator_establo",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_establo/generator_establo2.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "generator_pollo"
+        ],
+        "uses_max": 15,
+        "cooldown_max": 3200,
+        "items": [
+          {
+            "id": "generator_pollo1",
+            "prob": 0.5
+          },
+          {
+            "id": "generator_pollo2",
+            "prob": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_establo3",
+      "nombre": "Establo",
+      "tipo": "generator_establo",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_establo/generator_establo3.png",
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "generator_pollo",
+          "generator_vacas"
+        ],
+        "uses_max": 25,
+        "cooldown_max": 3000,
+        "items": [
+          {
+            "id": "generator_pollo1",
+            "prob": 0.25
+          },
+          {
+            "id": "generator_pollo2",
+            "prob": 0.25
+          },
+          {
+            "id": "generator_vaca1",
+            "prob": 0.25
+          },
+          {
+            "id": "generator_vaca2",
+            "prob": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_pollo1",
+      "nombre": "Pollito",
+      "tipo": "generator_pollo",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_pollo/generator_pollo1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_pollo2",
+      "nombre": "Gallina",
+      "tipo": "generator_pollo",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_pollo/generator_pollo2.png",
+      "item_tipo": "limited_generator",
+      "generator_data": {
+        "category_chain": [
+          "huevo"
+        ],
+        "uses_max": 15,
+        "items": [
+          {
+            "id": "huevo1",
+            "prob": 0.5
+          },
+          {
+            "id": "huevo2",
+            "prob": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_vaca1",
+      "nombre": "Ternero",
+      "tipo": "generator_vaca",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_vaca/generator_vaca1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vaca2",
+      "nombre": "Vaca",
+      "tipo": "generator_vaca",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_vaca/generator_vaca2.png",
+      "item_tipo": "limited_generator",
+      "generator_data": {
+        "category_chain": [
+          "lacteo"
+        ],
+        "uses_max": 15,
+        "items": [
+          {
+            "id": "lacteo1",
+            "prob": 0.5
+          },
+          {
+            "id": "lacteo2",
+            "prob": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "girasol1",
+      "nombre": "Semilla de girasol",
+      "tipo": "girasol",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "girasol/girasol1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "girasol2",
+      "nombre": "Semillas de girasol",
+      "tipo": "girasol",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "girasol/girasol2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "girasol3",
+      "nombre": "Brote de girasol",
+      "tipo": "girasol",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "girasol/girasol3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "girasol4",
+      "nombre": "Flor de girasol",
+      "tipo": "girasol",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "girasol/girasol4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "girasol5",
+      "nombre": "Ramo de girasoles",
+      "tipo": "girasol",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "girasol/girasol5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "girasol6",
+      "nombre": "Canaste de girasoles",
+      "tipo": "girasol",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "girasol/girasol6.png",
+      "precio": 16
+    },
+    {
+      "item_id": "lavanda1",
+      "nombre": "Semilla de lavanda",
+      "tipo": "lavanda",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "lavanda/lavanda1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "lavanda2",
+      "nombre": "Semillas de lavanda",
+      "tipo": "lavanda",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "lavanda/lavanda2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "lavanda3",
+      "nombre": "Brote de lavanda",
+      "tipo": "lavanda",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "lavanda/lavanda3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "lavanda4",
+      "nombre": "Flor de lavanda",
+      "tipo": "lavanda",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "lavanda/lavanda4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "lavanda5",
+      "nombre": "Ramo de lavandas",
+      "tipo": "lavanda",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "lavanda/lavanda5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "lavanda6",
+      "nombre": "Canasta de lavandas",
+      "tipo": "lavanda",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "lavanda/lavanda6.png",
+      "precio": 16
+    },
+    {
+      "item_id": "generator_flores1",
+      "nombre": "Saco pequeño",
+      "tipo": "generator_flores",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_flores/generator_flores1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_flores2",
+      "nombre": "Saco de semillas de girasol",
+      "tipo": "generator_flores",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_flores/generator_flores2.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "girasol"
+        ],
+        "uses_max": 32,
+        "cooldown_max": 3600,
+        "items": [
+          {
+            "id": "girasol1",
+            "prob": 0.5
+          },
+          {
+            "id": "girasol2",
+            "prob": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_flores3",
+      "nombre": "Saco de semillas",
+      "tipo": "generator_flores",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_flores/generator_flores3.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "girasol",
+          "lavanda"
+        ],
+        "uses_max": 64,
+        "cooldown_max": 3400,
+        "items": [
+          {
+            "id": "girasol1",
+            "prob": 0.25
+          },
+          {
+            "id": "girasol2",
+            "prob": 0.25
+          },
+          {
+            "id": "lavanda1",
+            "prob": 0.25
+          },
+          {
+            "id": "lavanda2",
+            "prob": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_flores4",
+      "nombre": "Caja de flores",
+      "tipo": "generator_flores",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "generator_flores/generator_flores4.png",
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "girasol",
+          "lavanda"
+        ],
+        "uses_max": 75,
+        "cooldown_max": 3200,
+        "items": [
+          {
+            "id": "girasol1",
+            "prob": 0.1
+          },
+          {
+            "id": "girasol2",
+            "prob": 0.2
+          },
+          {
+            "id": "girasol3",
+            "prob": 0.2
+          },
+          {
+            "id": "lavanda1",
+            "prob": 0.1
+          },
+          {
+            "id": "lavanda2",
+            "prob": 0.2
+          },
+          {
+            "id": "lavanda3",
+            "prob": 0.2
+          }
+        ]
+      }
     }
   ],
   "characters": [],
@@ -339,51 +906,36 @@
     "grid_config": [
       {
         "slot": 0,
-        "id": "maiz1",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "maiz1"
       },
       {
         "slot": 1,
-        "id": "maiz2",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "maiz2"
       },
       {
         "slot": 3,
-        "id": "maiz3",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "maiz3"
       },
       {
         "slot": 4,
-        "id": "tomate3",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "tomate3"
       },
       {
         "slot": 5,
-        "id": "tomate1",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "tomate1"
       },
       {
         "slot": 6,
-        "id": "tomate2",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "tomate2"
       },
       {
         "slot": 7,
-        "id": "generator_cultivo1",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "generator_cultivo1"
       },
       {
         "slot": 8,
         "id": "generator_cultivo1",
-        "bloqueado": true,
-        "bloqueado_completo": false
+        "bloqueado": true
       },
       {
         "slot": 9,
@@ -393,21 +945,51 @@
       },
       {
         "slot": 10,
-        "id": "generator_cultivo1",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "generator_cultivo1"
       },
       {
         "slot": 11,
-        "id": "generator_cultivo2",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "generator_cultivo2"
       },
       {
         "slot": 12,
-        "id": "generator_cultivo3",
-        "bloqueado": false,
-        "bloqueado_completo": false
+        "id": "generator_cultivo3"
+      },
+      {
+        "slot": 13,
+        "id": "generator_flores1"
+      },
+      {
+        "slot": 14,
+        "id": "generator_flores1"
+      },
+      {
+        "slot": 15,
+        "id": "generator_flores2"
+      },
+      {
+        "slot": 16,
+        "id": "generator_flores3"
+      },
+      {
+        "slot": 17,
+        "id": "generator_establo1"
+      },
+      {
+        "slot": 18,
+        "id": "generator_establo1"
+      },
+      {
+        "slot": 19,
+        "id": "generator_establo2"
+      },
+      {
+        "slot": 20,
+        "id": "generator_establo2"
+      },
+      {
+        "slot": 21,
+        "id": "generator_establo3"
       }
     ]
   },
@@ -496,6 +1078,146 @@
       {
         "combination": "generator_cultivo5+generator_cultivo5",
         "result": "generator_cultivo6"
+      },
+      {
+        "combination": "lacteo1+lacteo1",
+        "result": "lacteo2"
+      },
+      {
+        "combination": "lacteo2+lacteo2",
+        "result": "lacteo3"
+      },
+      {
+        "combination": "lacteo3+lacteo3",
+        "result": "lacteo4"
+      },
+      {
+        "combination": "lacteo4+lacteo4",
+        "result": "lacteo5"
+      },
+      {
+        "combination": "lacteo5+lacteo5",
+        "result": "lacteo6"
+      },
+      {
+        "combination": "lacteo6+lacteo6",
+        "result": "lacteo7"
+      },
+      {
+        "combination": "lacteo7+lacteo7",
+        "result": "lacteo8"
+      },
+      {
+        "combination": "lacteo8+lacteo8",
+        "result": "lacteo9"
+      },
+      {
+        "combination": "lacteo9+lacteo9",
+        "result": "lacteo10"
+      },
+      {
+        "combination": "huevo1+huevo1",
+        "result": "huevo2"
+      },
+      {
+        "combination": "huevo2+huevo2",
+        "result": "huevo3"
+      },
+      {
+        "combination": "huevo3+huevo3",
+        "result": "huevo4"
+      },
+      {
+        "combination": "huevo4+huevo4",
+        "result": "huevo5"
+      },
+      {
+        "combination": "huevo5+huevo5",
+        "result": "huevo6"
+      },
+      {
+        "combination": "huevo6+huevo6",
+        "result": "huevo7"
+      },
+      {
+        "combination": "huevo7+huevo7",
+        "result": "huevo8"
+      },
+      {
+        "combination": "huevo8+huevo8",
+        "result": "huevo9"
+      },
+      {
+        "combination": "huevo9+huevo9",
+        "result": "huevo10"
+      },
+      {
+        "combination": "generator_pollo1+generator_pollo1",
+        "result": "generator_pollo2"
+      },
+      {
+        "combination": "generator_vaca1+generator_vaca1",
+        "result": "generator_vaca2"
+      },
+      {
+        "combination": "generator_establo1+generator_establo1",
+        "result": "generator_establo2"
+      },
+      {
+        "combination": "generator_establo2+generator_establo2",
+        "result": "generator_establo3"
+      },
+      {
+        "combination": "girasol1+girasol1",
+        "result": "girasol2"
+      },
+      {
+        "combination": "girasol2+girasol2",
+        "result": "girasol3"
+      },
+      {
+        "combination": "girasol3+girasol3",
+        "result": "girasol4"
+      },
+      {
+        "combination": "girasol4+girasol4",
+        "result": "girasol5"
+      },
+      {
+        "combination": "girasol5+girasol5",
+        "result": "girasol6"
+      },
+      {
+        "combination": "lavanda1+lavanda1",
+        "result": "lavanda2"
+      },
+      {
+        "combination": "lavanda2+lavanda2",
+        "result": "lavanda3"
+      },
+      {
+        "combination": "lavanda3+lavanda3",
+        "result": "lavanda4"
+      },
+      {
+        "combination": "lavanda4+lavanda4",
+        "result": "lavanda5"
+      },
+      {
+        "combination": "lavanda5+lavanda5",
+        "result": "lavanda6"
+      },
+      {
+        "combination": "generator_flores1+generator_flores1",
+        "result": "generator_flores2"
+      },
+      {
+        "combination": "generator_flores2+generator_flores2",
+        "result": "generator_flores3"
+      },
+      {
+        "combination": "generator_flores3+generator_flores3",
+        "result": "generator_flores4"
       }
     ]
   },
@@ -504,21 +1226,27 @@
       {
         "chapter": 1,
         "scene": 1,
-        "rewards_id": ["maiz4"],
+        "rewards_id": [
+          "maiz4"
+        ],
         "exp": 10,
         "coins_required": 0
       },
       {
         "chapter": 1,
         "scene": 2,
-        "rewards_id": ["maiz1"],
+        "rewards_id": [
+          "maiz1"
+        ],
         "exp": 12,
         "coins_required": 20
       },
       {
         "chapter": 1,
         "scene": 3,
-        "rewards_id": ["maiz5"],
+        "rewards_id": [
+          "maiz5"
+        ],
         "exp": 24,
         "coins_required": 40
       }
