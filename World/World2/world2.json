@@ -251,7 +251,8 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_cafeteria/generator_cafeteria1.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_cafeteria2",
@@ -260,7 +261,8 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_cafeteria/generator_cafeteria2.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_cafeteria3",
@@ -427,7 +429,8 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia1.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_panaderia2",
@@ -436,7 +439,8 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia2.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_panaderia3",
@@ -445,7 +449,8 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia3.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_panaderia4",
@@ -986,7 +991,8 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_mar/generator_mar1.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_mar2",
@@ -995,7 +1001,8 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_mar/generator_mar2.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_mar3",
@@ -1004,7 +1011,8 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_mar/generator_mar3.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_mar4",
@@ -1237,9 +1245,9 @@
 			"item_id": "fruta_tropical5",
 			"nombre": "Piña",
 			"tipo": "fruta_tropical",
-			"nivel": 7,
+			"nivel": 5,
 			"descripcion": "",
-			"icono": "fruta_tropical/fruta_tropical7.png",
+			"icono": "fruta_tropical/fruta_tropical5.png",
 			"is_fusion": true,
 			"precio": 11
 		},
@@ -1289,7 +1297,8 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta1.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_fruta2",
@@ -1298,7 +1307,8 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta2.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_fruta3",
@@ -1307,7 +1317,8 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta3.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_fruta4",
@@ -1615,7 +1626,8 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_vegetal/generator_vegetal1.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_vegetal2",
@@ -1624,7 +1636,8 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_vegetal/generator_vegetal2.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_vegetal3",
@@ -1633,7 +1646,8 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_vegetal/generator_vegetal3.png",
-			"is_fusion": true
+			"is_fusion": true,
+			"item_tipo":"generator"
 		},
 		{
 			"item_id": "generator_vegetal4",
