@@ -685,15 +685,15 @@
         "category_chain": [
           "huevo"
         ],
-        "uses_max": 15,
+        "uses_max": 7,
         "items": [
           {
             "id": "huevo1",
-            "prob": 0.5
+            "prob": 0.7
           },
           {
             "id": "huevo2",
-            "prob": 0.5
+            "prob": 0.3
           }
         ]
       }
@@ -719,15 +719,15 @@
         "category_chain": [
           "lacteo"
         ],
-        "uses_max": 15,
+        "uses_max": 7,
         "items": [
           {
             "id": "lacteo1",
-            "prob": 0.5
+            "prob": 0.7
           },
           {
             "id": "lacteo2",
-            "prob": 0.5
+            "prob": 0.3
           }
         ]
       }
@@ -754,7 +754,7 @@
     },
     {
       "item_id": "girasol3",
-      "nombre": "Brote de girasol",
+      "nombre": "Flor de girasol",
       "tipo": "girasol",
       "nivel": 3,
       "descripcion": "",
@@ -764,7 +764,7 @@
     },
     {
       "item_id": "girasol4",
-      "nombre": "Flor de girasol",
+      "nombre": "Girasoles",
       "tipo": "girasol",
       "nivel": 4,
       "descripcion": "",
@@ -813,7 +813,7 @@
     },
     {
       "item_id": "lavanda3",
-      "nombre": "Brote de lavanda",
+      "nombre": "Flor de lavanda",
       "tipo": "lavanda",
       "nivel": 3,
       "descripcion": "",
@@ -823,7 +823,7 @@
     },
     {
       "item_id": "lavanda4",
-      "nombre": "Flor de lavanda",
+      "nombre": "Flores de lavanda",
       "tipo": "lavanda",
       "nivel": 4,
       "descripcion": "",
@@ -888,7 +888,7 @@
     },
     {
       "item_id": "generator_flores3",
-      "nombre": "Saco de semillas",
+      "nombre": "Saco de semillas varias",
       "tipo": "generator_flores",
       "nivel": 3,
       "descripcion": "",

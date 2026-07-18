@@ -782,7 +782,7 @@
 		},
 		{
 			"item_id": "pescado1",
-			"nombre": "Sardina",
+			"nombre": "Filete de pescado blanco",
 			"tipo": "pescado",
 			"nivel": 1,
 			"descripcion": "",
@@ -792,7 +792,7 @@
 		},
 		{
 			"item_id": "pescado2",
-			"nombre": "Caballa",
+			"nombre": "Filete de pescado rosa",
 			"tipo": "pescado",
 			"nivel": 2,
 			"descripcion": "",
@@ -802,7 +802,7 @@
 		},
 		{
 			"item_id": "pescado3",
-			"nombre": "Lubina",
+			"nombre": "Sashimi",
 			"tipo": "pescado",
 			"nivel": 3,
 			"descripcion": "",
@@ -812,7 +812,7 @@
 		},
 		{
 			"item_id": "pescado4",
-			"nombre": "Dorada",
+			"nombre": "Ceviche de pescado",
 			"tipo": "pescado",
 			"nivel": 4,
 			"descripcion": "",
@@ -822,7 +822,7 @@
 		},
 		{
 			"item_id": "pescado5",
-			"nombre": "Filete de pescado",
+			"nombre": "Sushi",
 			"tipo": "pescado",
 			"nivel": 5,
 			"descripcion": "",
@@ -832,7 +832,7 @@
 		},
 		{
 			"item_id": "pescado6",
-			"nombre": "Pescado frito",
+			"nombre": "Arroz con pescado",
 			"tipo": "pescado",
 			"nivel": 6,
 			"descripcion": "",
@@ -842,7 +842,7 @@
 		},
 		{
 			"item_id": "pescado7",
-			"nombre": "Ceviche de pescado",
+			"nombre": "Pescado con ensalada",
 			"tipo": "pescado",
 			"nivel": 7,
 			"descripcion": "",
@@ -852,7 +852,7 @@
 		},
 		{
 			"item_id": "pescado8",
-			"nombre": "Sushi",
+			"nombre": "Sopa de pescado",
 			"tipo": "pescado",
 			"nivel": 8,
 			"descripcion": "",
@@ -862,7 +862,7 @@
 		},
 		{
 			"item_id": "pescado9",
-			"nombre": "Arroz con pescado",
+			"nombre": "Paella de pescado",
 			"tipo": "pescado",
 			"nivel": 9,
 			"descripcion": "",
@@ -999,7 +999,7 @@
 		},
 		{
 			"item_id": "generator_mar3",
-			"nombre": "Hielera",
+			"nombre": "Hielera cerrada",
 			"tipo": "generator_mar",
 			"nivel": 3,
 			"descripcion": "",
@@ -1123,6 +1123,674 @@
 					}
 				]
 			}
+		},
+		{
+			"item_id": "fruta1",
+			"nombre": "Manzana",
+			"tipo": "fruta",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "fruta/fruta1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "fruta2",
+			"nombre": "Naranja",
+			"tipo": "fruta",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "fruta/fruta2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "fruta3",
+			"nombre": "Pera",
+			"tipo": "fruta",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "fruta/fruta3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "fruta4",
+			"nombre": "Durazno",
+			"tipo": "fruta",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "fruta/fruta4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "fruta5",
+			"nombre": "Arandano",
+			"tipo": "fruta",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "fruta/fruta5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "fruta6",
+			"nombre": "Frutilla",
+			"tipo": "fruta",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "fruta/fruta6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "fruta7",
+			"nombre": "Uva",
+			"tipo": "fruta",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "fruta/fruta7.png",
+			"precio": 22
+		},
+		{
+			"item_id": "fruta_tropical1",
+			"nombre": "Banana",
+			"tipo": "fruta_tropical",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "fruta_tropical2",
+			"nombre": "Sandía",
+			"tipo": "fruta_tropical",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "fruta_tropical3",
+			"nombre": "Melón",
+			"tipo": "fruta_tropical",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "fruta_tropical4",
+			"nombre": "Kiwi",
+			"tipo": "fruta_tropical",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "fruta_tropical5",
+			"nombre": "Piña",
+			"tipo": "fruta_tropical",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical7.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "fruta_tropical6",
+			"nombre": "Papaya",
+			"tipo": "fruta_tropical",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "fruta_tropical7",
+			"nombre": "Mango",
+			"tipo": "fruta_tropical",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical7.png",
+			"is_fusion": true,
+			"precio": 22
+		},
+		{
+			"item_id": "fruta_tropical8",
+			"nombre": "Maracuyá",
+			"tipo": "fruta_tropical",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical8.png",
+			"is_fusion": true,
+			"precio": 29
+		},
+		{
+			"item_id": "fruta_tropical9",
+			"nombre": "Coco",
+			"tipo": "fruta_tropical",
+			"nivel": 9,
+			"descripcion": "",
+			"icono": "fruta_tropical/fruta_tropical9.png",
+			"precio": 37
+		},
+		{
+			"item_id": "generator_fruta1",
+			"nombre": "Plato de madera",
+			"tipo": "generator_fruta",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta1.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_fruta2",
+			"nombre": "Cuenco de madera",
+			"tipo": "generator_fruta",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta2.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_fruta3",
+			"nombre": "Canasta vacia",
+			"tipo": "generator_fruta",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta3.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_fruta4",
+			"nombre": "Canasta circular básica",
+			"tipo": "generator_fruta",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta4.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"fruta_tropical"
+				],
+				"cooldown_max": 3600,
+				"uses_max": 32,
+				"items": [
+					{
+						"id": "fruta_tropical1",
+						"prob": 1
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_fruta5",
+			"nombre": "Canasta circular superior",
+			"tipo": "generator_fruta",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta5.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"fruta_tropical"
+				],
+				"cooldown_max": 3400,
+				"uses_max": 64,
+				"items": [
+					{
+						"id": "fruta_tropical1",
+						"prob": 0.6
+					},
+					{
+						"id": "fruta_tropical2",
+						"prob": 0.4
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_fruta6",
+			"nombre": "Canasta cuadrada básica",
+			"tipo": "generator_fruta",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta6.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"fruta_tropical",
+					"fruta"
+				],
+				"cooldown_max": 3200,
+				"uses_max": 75,
+				"items": [
+					{
+						"id": "fruta_tropical1",
+						"prob": 0.4
+					},
+					{
+						"id": "fruta_tropical2",
+						"prob": 0.4
+					},
+					{
+						"id": "fruta1",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_fruta7",
+			"nombre": "Canasta cuadrada superior",
+			"tipo": "generator_fruta",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "generator_fruta/generator_fruta7.png",
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"fruta_tropical",
+					"fruta"
+				],
+				"cooldown_max": 3000,
+				"uses_max": 85,
+				"items": [
+					{
+						"id": "fruta_tropical1",
+						"prob": 0.2
+					},
+					{
+						"id": "fruta_tropical2",
+						"prob": 0.2
+					},
+					{
+						"id": "fruta_tropical3",
+						"prob": 0.2
+					},
+					{
+						"id": "fruta1",
+						"prob": 0.2
+					},
+					{
+						"id": "fruta2",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "vegetal1",
+			"nombre": "Tomate",
+			"tipo": "vegetal",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "vegetal/vegetal1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "vegetal2",
+			"nombre": "Lechuga",
+			"tipo": "vegetal",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "vegetal/vegetal2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "vegetal3",
+			"nombre": "Cebolla",
+			"tipo": "vegetal",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "vegetal/vegetal3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "vegetal4",
+			"nombre": "Cebolla morada",
+			"tipo": "vegetal",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "vegetal/vegetal4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "vegetal5",
+			"nombre": "Pimentón",
+			"tipo": "vegetal",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "vegetal/vegetal5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "vegetal6",
+			"nombre": "Pepino",
+			"tipo": "vegetal",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "vegetal/vegetal6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "vegetal7",
+			"nombre": "Zanahoria",
+			"tipo": "vegetal",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "vegetal/vegetal7.png",
+			"is_fusion": true,
+			"precio": 22
+		},
+		{
+			"item_id": "vegetal8",
+			"nombre": "Palta",
+			"tipo": "vegetal",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "vegetal/vegetal8.png",
+			"is_fusion": true,
+			"precio": 29
+		},
+		{
+			"item_id": "vegetal9",
+			"nombre": "Choclo",
+			"tipo": "vegetal",
+			"nivel": 9,
+			"descripcion": "",
+			"icono": "vegetal/vegetal9.png",
+			"is_fusion": true,
+			"precio": 37
+		},
+		{
+			"item_id": "vegetal10",
+			"nombre": "Papa",
+			"tipo": "vegetal",
+			"nivel": 10,
+			"descripcion": "",
+			"icono": "vegetal/vegetal10.png",
+			"is_fusion": true,
+			"precio": 46
+		},
+		{
+			"item_id": "vegetal11",
+			"nombre": "Ajo",
+			"tipo": "vegetal",
+			"nivel": 11,
+			"descripcion": "",
+			"icono": "vegetal/vegetal11.png",
+			"precio": 56
+		},
+		{
+			"item_id": "hortaliza1",
+			"nombre": "Brócoli",
+			"tipo": "hortaliza",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza1.png",
+			"is_fusion": true,
+			"precio": 1
+		},
+		{
+			"item_id": "hortaliza2",
+			"nombre": "Coliflor",
+			"tipo": "hortaliza",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza2.png",
+			"is_fusion": true,
+			"precio": 2
+		},
+		{
+			"item_id": "hortaliza3",
+			"nombre": "Apio",
+			"tipo": "hortaliza",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza3.png",
+			"is_fusion": true,
+			"precio": 4
+		},
+		{
+			"item_id": "hortaliza4",
+			"nombre": "Betarraga",
+			"tipo": "hortaliza",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza4.png",
+			"is_fusion": true,
+			"precio": 7
+		},
+		{
+			"item_id": "hortaliza5",
+			"nombre": "Alcachofa",
+			"tipo": "hortaliza",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza5.png",
+			"is_fusion": true,
+			"precio": 11
+		},
+		{
+			"item_id": "hortaliza6",
+			"nombre": "Porotos verdes",
+			"tipo": "hortaliza",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza6.png",
+			"is_fusion": true,
+			"precio": 16
+		},
+		{
+			"item_id": "hortaliza7",
+			"nombre": "Calabacín circular",
+			"tipo": "hortaliza",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "hortaliza/hortaliza7.png",
+			"precio": 22
+		},
+		{
+			"item_id": "generator_vegetal1",
+			"nombre": "Bolsa doblada",
+			"tipo": "generator_vegetal",
+			"nivel": 1,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal1.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_vegetal2",
+			"nombre": "Bolsa sin tiras",
+			"tipo": "generator_vegetal",
+			"nivel": 2,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal2.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_vegetal3",
+			"nombre": "Bolsa de cartón",
+			"tipo": "generator_vegetal",
+			"nivel": 3,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal3.png",
+			"is_fusion": true
+		},
+		{
+			"item_id": "generator_vegetal4",
+			"nombre": "Bolsa básica",
+			"tipo": "generator_vegetal",
+			"nivel": 4,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal4.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"vegetal"
+				],
+				"cooldown_max": 3600,
+				"uses_max": 32,
+				"items": [
+					{
+						"id": "vegetal1",
+						"prob": 1
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_vegetal5",
+			"nombre": "Bolsa de compra",
+			"tipo": "generator_vegetal",
+			"nivel": 5,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal5.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"vegetal"
+				],
+				"cooldown_max": 3400,
+				"uses_max": 64,
+				"items": [
+					{
+						"id": "vegetal1",
+						"prob": 0.6
+					},
+					{
+						"id": "vegetal2",
+						"prob": 0.4
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_vegetal6",
+			"nombre": "Canasta básica",
+			"tipo": "generator_vegetal",
+			"nivel": 6,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal6.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"vegetal",
+					"hortaliza"
+				],
+				"cooldown_max": 3200,
+				"uses_max": 75,
+				"items": [
+					{
+						"id": "vegetal1",
+						"prob": 0.4
+					},
+					{
+						"id": "vegetal2",
+						"prob": 0.4
+					},
+					{
+						"id": "hortaliza1",
+						"prob": 0.2
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_vegetal7",
+			"nombre": "Canasta de compra",
+			"tipo": "generator_vegetal",
+			"nivel": 7,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal7.png",
+			"is_fusion": true,
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"vegetal",
+					"hortaliza"
+				],
+				"cooldown_max": 3000,
+				"uses_max": 85,
+				"items": [
+					{
+						"id": "vegetal1",
+						"prob": 0.25
+					},
+					{
+						"id": "vegetal2",
+						"prob": 0.25
+					},
+					{
+						"id": "hortaliza1",
+						"prob": 0.25
+					},
+					{
+						"id": "hortaliza2",
+						"prob": 0.25
+					}
+				]
+			}
+		},
+		{
+			"item_id": "generator_vegetal8",
+			"nombre": "Canasta de supermercado",
+			"tipo": "generator_vegetal",
+			"nivel": 8,
+			"descripcion": "",
+			"icono": "generator_vegetal/generator_vegetal8.png",
+			"item_tipo": "generator",
+			"generator_data": {
+				"category_chain": [
+					"vegetal",
+					"hortaliza"
+				],
+				"cooldown_max": 2800,
+				"uses_max": 95,
+				"items": [
+					{
+						"id": "vegetal1",
+						"prob": 0.2
+					},
+					{
+						"id": "vegetal2",
+						"prob": 0.2
+					},
+					{
+						"id": "vegetal3",
+						"prob": 0.2
+					},
+					{
+						"id": "hortaliza1",
+						"prob": 0.2
+					},
+					{
+						"id": "hortaliza2",
+						"prob": 0.2
+					}
+				]
+			}
 		}
 	],
 	"characters": [
@@ -1240,6 +1908,14 @@
 			{
 				"slot": 37,
 				"id": "energia_100"
+			},
+			{
+				"slot": 38,
+				"id": "generator_fruta6"
+			},
+			{
+				"slot": 39,
+				"id": "generator_vegetal6"
 			},
 			{
 				"slot": 40,
@@ -1553,8 +2229,16 @@
 				"result": "pescado5"
 			},
 			{
+				"combination": "pescado5+pescado5",
+				"result": "pescado6"
+			},
+			{
 				"combination": "pescado6+pescado6",
 				"result": "pescado7"
+			},
+			{
+				"combination": "pescado7+pescado7",
+				"result": "pescado8"
 			},
 			{
 				"combination": "pescado8+pescado8",
@@ -1593,6 +2277,10 @@
 				"result": "marisco9"
 			},
 			{
+				"combination": "marisco9+marisco9",
+				"result": "marisco10"
+			},
+			{
 				"combination": "marisco10+marisco10",
 				"result": "marisco11"
 			},
@@ -1619,6 +2307,174 @@
 			{
 				"combination": "generator_mar6+generator_mar6",
 				"result": "generator_mar7"
+			},
+			{
+				"combination": "fruta1+fruta1",
+				"result": "fruta2"
+			},
+			{
+				"combination": "fruta2+fruta2",
+				"result": "fruta3"
+			},
+			{
+				"combination": "fruta3+fruta3",
+				"result": "fruta4"
+			},
+			{
+				"combination": "fruta4+fruta4",
+				"result": "fruta5"
+			},
+			{
+				"combination": "fruta5+fruta5",
+				"result": "fruta6"
+			},
+			{
+				"combination": "fruta6+fruta6",
+				"result": "fruta7"
+			},
+			{
+				"combination": "fruta_tropical1+fruta_tropical1",
+				"result": "fruta_tropical2"
+			},
+			{
+				"combination": "fruta_tropical2+fruta_tropical2",
+				"result": "fruta_tropical3"
+			},
+			{
+				"combination": "fruta_tropical3+fruta_tropical3",
+				"result": "fruta_tropical4"
+			},
+			{
+				"combination": "fruta_tropical4+fruta_tropical4",
+				"result": "fruta_tropical5"
+			},
+			{
+				"combination": "fruta_tropical5+fruta_tropical5",
+				"result": "fruta_tropical6"
+			},
+			{
+				"combination": "fruta_tropical6+fruta_tropical6",
+				"result": "fruta_tropical7"
+			},
+			{
+				"combination": "fruta_tropical7+fruta_tropical7",
+				"result": "fruta_tropical8"
+			},
+			{
+				"combination": "fruta_tropical8+fruta_tropical8",
+				"result": "fruta_tropical9"
+			},
+			{
+				"combination": "generator_fruta1+generator_fruta1",
+				"result": "generator_fruta2"
+			},
+			{
+				"combination": "generator_fruta2+generator_fruta2",
+				"result": "generator_fruta3"
+			},
+			{
+				"combination": "generator_fruta3+generator_fruta3",
+				"result": "generator_fruta4"
+			},
+			{
+				"combination": "generator_fruta4+generator_fruta4",
+				"result": "generator_fruta5"
+			},
+			{
+				"combination": "generator_fruta5+generator_fruta5",
+				"result": "generator_fruta6"
+			},
+			{
+				"combination": "generator_fruta6+generator_fruta6",
+				"result": "generator_fruta7"
+			},
+			{
+				"combination": "vegetal1+vegetal1",
+				"result": "vegetal2"
+			},
+			{
+				"combination": "vegetal2+vegetal2",
+				"result": "vegetal3"
+			},
+			{
+				"combination": "vegetal3+vegetal3",
+				"result": "vegetal4"
+			},
+			{
+				"combination": "vegetal4+vegetal4",
+				"result": "vegetal5"
+			},
+			{
+				"combination": "vegetal5+vegetal5",
+				"result": "vegetal6"
+			},
+			{
+				"combination": "vegetal6+vegetal6",
+				"result": "vegetal7"
+			},
+			{
+				"combination": "vegetal7+vegetal7",
+				"result": "vegetal8"
+			},
+			{
+				"combination": "vegetal8+vegetal8",
+				"result": "vegetal9"
+			},
+			{
+				"combination": "vegetal9+vegetal9",
+				"result": "vegetal10"
+			},
+			{
+				"combination": "vegetal10+vegetal10",
+				"result": "vegetal11"
+			},
+			{
+				"combination": "hortaliza1+hortaliza1",
+				"result": "hortaliza2"
+			},
+			{
+				"combination": "hortaliza2+hortaliza2",
+				"result": "hortaliza3"
+			},
+			{
+				"combination": "hortaliza3+hortaliza3",
+				"result": "hortaliza4"
+			},
+			{
+				"combination": "hortaliza4+hortaliza4",
+				"result": "hortaliza5"
+			},
+			{
+				"combination": "hortaliza5+hortaliza5",
+				"result": "hortaliza6"
+			},
+			{
+				"combination": "hortaliza6+hortaliza6",
+				"result": "hortaliza7"
+			},
+			{
+				"combination": "generator_vegetal1+generator_vegetal1",
+				"result": "generator_vegetal2"
+			},
+			{
+				"combination": "generator_vegetal2+generator_vegetal2",
+				"result": "generator_vegetal3"
+			},
+			{
+				"combination": "generator_vegetal3+generator_vegetal3",
+				"result": "generator_vegetal4"
+			},
+			{
+				"combination": "generator_vegetal4+generator_vegetal4",
+				"result": "generator_vegetal5"
+			},
+			{
+				"combination": "generator_vegetal5+generator_vegetal5",
+				"result": "generator_vegetal6"
+			},
+			{
+				"combination": "generator_vegetal7+generator_vegetal7",
+				"result": "generator_vegetal8"
 			}
 		]
 	},
