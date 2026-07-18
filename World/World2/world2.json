@@ -1667,6 +1667,10 @@
 				"id": "generator_panaderia2"
 			},
 			{
+				"slot": 39,
+				"id": "generator_panaderia3"
+			},
+			{
 				"slot": 40,
 				"id": "pan6",
 				"bloqueado": true,
