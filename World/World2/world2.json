@@ -1476,281 +1476,274 @@
 		"grid_config": [
 			{
 				"slot": 0,
-				"id": "generator_cafeteria1",
+				"id": "fruta6",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 1,
-				"id": "generator_cafeteria1",
+				"id": "generator_fruta3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 2,
-				"id": "generator_cafeteria2",
+				"id": "masa3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 3,
-				"id": "generator_cafeteria2",
+				"id": "masa5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 4,
-				"id": "generator_panaderia1",
+				"id": "pan7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 5,
-				"id": "generator_panaderia1",
+				"id": "te6",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 6,
-				"id": "generator_panaderia2",
+				"id": "te5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 7,
-				"id": "generator_panaderia2",
+				"id": "generator_fruta2",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 8,
-				"id": "generator_panaderia3",
+				"id": "generator_fruta1",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 9,
-				"id": "cafe1",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan3",
+				"bloqueado": true
 			},
 			{
 				"slot": 10,
-				"id": "cafe1",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan1",
+				"bloqueado": true
 			},
 			{
 				"slot": 11,
-				"id": "cafe2",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan3",
+				"bloqueado": true
 			},
 			{
 				"slot": 12,
-				"id": "cafe2",
+				"id": "cafe5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 13,
-				"id": "pan1",
+				"id": "te4",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 14,
-				"id": "pan1",
+				"id": "fruta_tropical1",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 15,
-				"id": "pan2",
+				"id": "fruta_tropical3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 16,
-				"id": "pan2",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan1",
+				"bloqueado": true
 			},
 			{
 				"slot": 17,
-				"id": "generator_panaderia3",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan2",
+				"bloqueado": true
 			},
 			{
 				"slot": 18,
-				"id": "te1",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan2",
+				"bloqueado": true
 			},
 			{
 				"slot": 19,
-				"id": "te1",
+				"id": "cafe3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 20,
-				"id": "cafe3",
-				"bloqueado": true
-			},
-			{
-				"slot": 24,
-				"id": "pan3",
-				"bloqueado": true
-			},
-			{
-				"slot": 25,
-				"id": "pan3",
-				"bloqueado": true
-			},
-			{
-				"slot": 26,
-				"id": "masa1",
-				"bloqueado": true
-			},
-			{
-				"slot": 27,
-				"id": "te2",
-				"bloqueado": true
-			},
-			{
-				"slot": 28,
-				"id": "te2",
-				"bloqueado": true
-			},
-			{
-				"slot": 29,
-				"id": "cafe3",
-				"bloqueado": true
-			},
-			{
-				"slot": 31,
-				"id": "generator_cafeteria3"
-			},
-			{
-				"slot": 33,
-				"id": "masa2",
-				"bloqueado": true
-			},
-			{
-				"slot": 34,
-				"id": "masa2",
-				"bloqueado": true
-			},
-			{
-				"slot": 35,
-				"id": "masa1",
-				"bloqueado": true
-			},
-			{
-				"slot": 36,
-				"id": "generator_mar1",
+				"id": "cafe7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
-				"slot": 37,
-				"id": "generator_mar1",
+				"slot": 21,
+				"id": "marisco4",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 22,
+				"id": "pan7",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 26,
+				"id": "pan5",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 27,
+				"id": "masa5",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 28,
+				"id": "marisco5",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 29,
+				"id": "cafe6",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 30,
+				"id": "generator_panaderia1"
+			},
+			{
+				"slot": 31,
+				"id": "generator_panaderia1"
+			},
+			{
+				"slot": 33,
+				"id": "generator_cafe1",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 34,
+				"id": "generator_cafe2",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 35,
+				"id": "generator_pescado",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 36,
+				"id": "cafe3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 38,
-				"id": "generator_mar2",
-				"bloqueado": true
+				"id": "generator_panaderia2"
+			},
+			{
+				"slot": 40,
+				"id": "pan6",
+				"bloqueado": true,
+				"bloqueado_completo": true
+			},
+			{
+				"slot": 41,
+				"id": "cafe7",
+				"bloqueado": true,
+				"bloqueado_completo": true
 			},
 			{
 				"slot": 42,
-				"id": "generator_fruta1",
-				"bloqueado": true
+				"id": "marisco6",
+				"bloqueado": true,
+				"bloqueado_completo": true
 			},
 			{
 				"slot": 43,
-				"id": "generator_fruta1",
-				"bloqueado": true,
-				"bloqueado_completo": true
-			},
-			{
-				"slot": 44,
-				"id": "generator_fruta2",
-				"bloqueado": true,
-				"bloqueado_completo": true
-			},
-			{
-				"slot": 45,
-				"id": "marisco3",
-				"bloqueado": true,
-				"bloqueado_completo": true
-			},
-			{
-				"slot": 46,
-				"id": "marisco3",
+				"id": "pan5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 47,
-				"id": "generator_mar2",
+				"id": "generator_panaderia1",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 48,
-				"id": "pescado3",
+				"id": "generator_panaderia2",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 49,
-				"id": "fruta2",
+				"id": "pescado5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 50,
-				"id": "fruta2",
+				"id": "generator_mar3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 51,
-				"id": "frutas_tropical3",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "cafe1",
+				"bloqueado": true
 			},
 			{
 				"slot": 52,
-				"id": "frutas_tropical3",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "pan2",
+				"bloqueado": true
 			},
 			{
 				"slot": 53,
-				"id": "generator_fruta2",
-				"bloqueado": true,
-				"bloqueado_completo": true
+				"id": "cafe5",
+				"bloqueado": true
 			},
 			{
 				"slot": 54,
-				"id": "marisco4",
+				"id": "masa3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 55,
-				"id": "marisco4",
+				"id": "pan7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 56,
-				"id": "pescado3",
+				"id": "pescado7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
@@ -1762,31 +1755,31 @@
 			},
 			{
 				"slot": 58,
-				"id": "pescado4",
+				"id": "pescado7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 59,
-				"id": "fruta3",
+				"id": "pan6",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 60,
-				"id": "fruta3",
+				"id": "cafe8",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 61,
-				"id": "frutas_tropical4",
+				"id": "masa5",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 62,
-				"id": "frutas_tropical4",
+				"id": "masa7",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			}
