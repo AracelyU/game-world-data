@@ -615,16 +615,16 @@
         "category_chain": [
           "generator_pollo"
         ],
-        "uses_max": 15,
+        "uses_max": 10,
         "cooldown_max": 3200,
         "items": [
           {
             "id": "generator_pollo1",
-            "prob": 0.5
+            "prob": 0.8
           },
           {
             "id": "generator_pollo2",
-            "prob": 0.5
+            "prob": 0.2
           }
         ]
       }
@@ -642,24 +642,24 @@
           "generator_pollo",
           "generator_vacas"
         ],
-        "uses_max": 25,
+        "uses_max": 15,
         "cooldown_max": 3000,
         "items": [
           {
             "id": "generator_pollo1",
-            "prob": 0.25
+            "prob": 0.45
           },
           {
             "id": "generator_pollo2",
-            "prob": 0.25
+            "prob": 0.05
           },
           {
             "id": "generator_vaca1",
-            "prob": 0.25
+            "prob": 0.45
           },
           {
             "id": "generator_vaca2",
-            "prob": 0.25
+            "prob": 0.05
           }
         ]
       }
@@ -689,11 +689,11 @@
         "items": [
           {
             "id": "huevo1",
-            "prob": 0.7
+            "prob": 0.8
           },
           {
             "id": "huevo2",
-            "prob": 0.3
+            "prob": 0.2
           }
         ]
       }
@@ -723,11 +723,11 @@
         "items": [
           {
             "id": "lacteo1",
-            "prob": 0.7
+            "prob": 0.8
           },
           {
             "id": "lacteo2",
-            "prob": 0.3
+            "prob": 0.2
           }
         ]
       }
