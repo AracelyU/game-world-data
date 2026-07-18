@@ -1473,9 +1473,6 @@
 		}
 	],
 	"grid_main_layout": {
-		"grid_config": []
-	},
-	"grid_inventory_layout": {
 		"grid_config": [
 			{
 				"slot": 0,
@@ -1794,6 +1791,9 @@
 				"bloqueado_completo": true
 			}
 		]
+	},
+	"grid_inventory_layout": {
+		"grid_config": []
 	},
 	"store": [
 		{
