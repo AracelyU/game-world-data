@@ -615,8 +615,8 @@
         "category_chain": [
           "generator_pollo"
         ],
-        "uses_max": 10,
-        "cooldown_max": 3200,
+        "uses_max": 7,
+        "cooldown_max": 1800,
         "items": [
           {
             "id": "generator_pollo1",
@@ -642,8 +642,8 @@
           "generator_pollo",
           "generator_vacas"
         ],
-        "uses_max": 15,
-        "cooldown_max": 3000,
+        "uses_max": 10,
+        "cooldown_max": 1500,
         "items": [
           {
             "id": "generator_pollo1",
