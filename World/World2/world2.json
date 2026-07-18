@@ -1640,13 +1640,13 @@
 			},
 			{
 				"slot": 33,
-				"id": "generator_cafe1",
+				"id": "generator_cafeteria1",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
 			{
 				"slot": 34,
-				"id": "generator_cafe2",
+				"id": "generator_cafeteria2",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
