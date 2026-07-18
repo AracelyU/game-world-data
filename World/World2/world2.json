@@ -2178,8 +2178,7 @@
 				"chapter": 1,
 				"scene": 1,
 				"rewards_id": [
-					"cafe2",
-					"generator_panaderia1",
+					"pan1",
 					"generator_panaderia3"
 				],
 				"exp": 10,
@@ -2189,9 +2188,8 @@
 				"chapter": 1,
 				"scene": 2,
 				"rewards_id": [
-					"generator_panaderia2",
-					"pan1",
-					"generator_panaderia3"
+					"pan2",
+					"generator_panaderia1"
 				],
 				"exp": 12,
 				"coins_required": 20
@@ -2200,8 +2198,7 @@
 				"chapter": 1,
 				"scene": 3,
 				"rewards_id": [
-					"cafe2",
-					"generator_panaderia2"
+					"energy_100"
 				],
 				"exp": 24,
 				"coins_required": 40
@@ -2210,9 +2207,7 @@
 				"chapter": 1,
 				"scene": 4,
 				"rewards_id": [
-					"cafe2",
-					"cafe1",
-					"generator_panaderia2"
+					"pan5"
 				],
 				"exp": 36,
 				"coins_required": 60
@@ -2221,7 +2216,8 @@
 				"chapter": 1,
 				"scene": 5,
 				"rewards_id": [
-					"cafe2"
+					"cafe1",
+					"generator_cafe1"
 				],
 				"exp": 48,
 				"coins_required": 80
@@ -2230,9 +2226,8 @@
 				"chapter": 1,
 				"scene": 6,
 				"rewards_id": [
-					"cafe2",
-					"cafe1",
-					"cafe2"
+					"pan5",
+					"cafe3"
 				],
 				"exp": 60,
 				"coins_required": 100
@@ -2241,28 +2236,10 @@
 				"chapter": 1,
 				"scene": 7,
 				"rewards_id": [
-					"cafe2"
+					"cafe6"
 				],
 				"exp": 72,
 				"coins_required": 120
-			},
-			{
-				"chapter": 8,
-				"scene": 7,
-				"rewards_id": [
-					"cafe2"
-				],
-				"exp": 84,
-				"coins_required": 140
-			},
-			{
-				"chapter": 9,
-				"scene": 7,
-				"rewards_id": [
-					"cafe2"
-				],
-				"exp": 96,
-				"coins_required": 140
 			}
 		]
 	}
