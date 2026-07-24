@@ -1,7 +1,7 @@
 {
   "id_world": 1,
   "name_world": "Campo abierto",
-  "story_id": 6,
+  "story_id": 13,
   "texture_world": "menu_camp.png",
   "texture_slot": "slot.png",
   "texture_slot_inv": "slot.png",
