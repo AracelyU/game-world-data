@@ -6,5 +6,9 @@
     {
         "dir": "World/World2",
         "file": "world2.json"
+    },
+    {
+        "dir": "World/World2Test",
+        "file": "world2test.json"
     }
 ]
