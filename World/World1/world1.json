@@ -615,7 +615,7 @@
         "category_chain": [
           "generator_pollo"
         ],
-        "uses_max": 7,
+        "uses_max": 15,
         "cooldown_max": 1800,
         "items": [
           {
@@ -642,7 +642,7 @@
           "generator_pollo",
           "generator_vacas"
         ],
-        "uses_max": 10,
+        "uses_max": 25,
         "cooldown_max": 1500,
         "items": [
           {
@@ -666,7 +666,7 @@
     },
     {
       "item_id": "generator_pollo1",
-      "nombre": "Pollito",
+      "nombre": "Pollito amarillo",
       "tipo": "generator_pollo",
       "nivel": 1,
       "descripcion": "",
@@ -675,17 +675,35 @@
     },
     {
       "item_id": "generator_pollo2",
-      "nombre": "Gallina",
+      "nombre": "Pollito blanco",
       "tipo": "generator_pollo",
       "nivel": 2,
       "descripcion": "",
       "icono": "generator_pollo/generator_pollo2.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_pollo3",
+      "nombre": "Pollito negro",
+      "tipo": "generator_pollo",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_pollo/generator_pollo3.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_pollo4",
+      "nombre": "Gallina blanca",
+      "tipo": "generator_pollo",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "generator_pollo/generator_pollo4.png",
       "item_tipo": "limited_generator",
       "generator_data": {
         "category_chain": [
           "huevo"
         ],
-        "uses_max": 7,
+        "uses_max": 14,
         "items": [
           {
             "id": "huevo1",
@@ -700,7 +718,7 @@
     },
     {
       "item_id": "generator_vaca1",
-      "nombre": "Ternero",
+      "nombre": "Ternero café",
       "tipo": "generator_vaca",
       "nivel": 1,
       "descripcion": "",
@@ -709,17 +727,35 @@
     },
     {
       "item_id": "generator_vaca2",
-      "nombre": "Vaca",
+      "nombre": "Ternero pequeño",
       "tipo": "generator_vaca",
       "nivel": 2,
       "descripcion": "",
       "icono": "generator_vaca/generator_vaca2.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vaca3",
+      "nombre": "Ternero grande",
+      "tipo": "generator_vaca",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_vaca/generator_vaca3.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vaca4",
+      "nombre": "Vaca lechera",
+      "tipo": "generator_vaca",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "generator_vaca/generator_vaca4.png",
       "item_tipo": "limited_generator",
       "generator_data": {
         "category_chain": [
           "lacteo"
         ],
-        "uses_max": 7,
+        "uses_max": 14,
         "items": [
           {
             "id": "lacteo1",
@@ -872,8 +908,8 @@
         "category_chain": [
           "girasol"
         ],
-        "uses_max": 32,
-        "cooldown_max": 3600,
+        "uses_max": 64,
+        "cooldown_max": 2800,
         "items": [
           {
             "id": "girasol1",
@@ -900,8 +936,8 @@
           "girasol",
           "lavanda"
         ],
-        "uses_max": 64,
-        "cooldown_max": 3400,
+        "uses_max": 75,
+        "cooldown_max": 2600,
         "items": [
           {
             "id": "girasol1",
@@ -935,8 +971,8 @@
           "girasol",
           "lavanda"
         ],
-        "uses_max": 75,
-        "cooldown_max": 3200,
+        "uses_max": 85,
+        "cooldown_max": 2400,
         "items": [
           {
             "id": "girasol1",
@@ -964,97 +1000,692 @@
           }
         ]
       }
+    },
+    {
+      "item_id": "vegetal1",
+      "nombre": "Lechuga",
+      "tipo": "vegetal",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "vegetal/vegetal1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "vegetal2",
+      "nombre": "Ajo",
+      "tipo": "vegetal",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "vegetal/vegetal2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "vegetal3",
+      "nombre": "Cebolla",
+      "tipo": "vegetal",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "vegetal/vegetal3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "vegetal4",
+      "nombre": "Cebolla morada",
+      "tipo": "vegetal",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "vegetal/vegetal4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "vegetal5",
+      "nombre": "Pimentón",
+      "tipo": "vegetal",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "vegetal/vegetal5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "vegetal6",
+      "nombre": "Pepino",
+      "tipo": "vegetal",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "vegetal/vegetal6.png",
+      "is_fusion": true,
+      "precio": 16
+    },
+    {
+      "item_id": "vegetal7",
+      "nombre": "Zanahoria",
+      "tipo": "vegetal",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "vegetal/vegetal7.png",
+      "is_fusion": true,
+      "precio": 22
+    },
+    {
+      "item_id": "vegetal8",
+      "nombre": "Palta",
+      "tipo": "vegetal",
+      "nivel": 8,
+      "descripcion": "",
+      "icono": "vegetal/vegetal8.png",
+      "is_fusion": true,
+      "precio": 29
+    },
+    {
+      "item_id": "vegetal9",
+      "nombre": "Choclo",
+      "tipo": "vegetal",
+      "nivel": 9,
+      "descripcion": "",
+      "icono": "vegetal/vegetal9.png",
+      "is_fusion": true,
+      "precio": 37
+    },
+    {
+      "item_id": "vegetal10",
+      "nombre": "Papa",
+      "tipo": "vegetal",
+      "nivel": 10,
+      "descripcion": "",
+      "icono": "vegetal/vegetal10.png",
+      "precio": 46
+    },
+    {
+      "item_id": "hortaliza1",
+      "nombre": "Brócoli",
+      "tipo": "hortaliza",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza1.png",
+      "is_fusion": true,
+      "precio": 1
+    },
+    {
+      "item_id": "hortaliza2",
+      "nombre": "Coliflor",
+      "tipo": "hortaliza",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza2.png",
+      "is_fusion": true,
+      "precio": 2
+    },
+    {
+      "item_id": "hortaliza3",
+      "nombre": "Apio",
+      "tipo": "hortaliza",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza3.png",
+      "is_fusion": true,
+      "precio": 4
+    },
+    {
+      "item_id": "hortaliza4",
+      "nombre": "Betarraga",
+      "tipo": "hortaliza",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza4.png",
+      "is_fusion": true,
+      "precio": 7
+    },
+    {
+      "item_id": "hortaliza5",
+      "nombre": "Alcachofa",
+      "tipo": "hortaliza",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza5.png",
+      "is_fusion": true,
+      "precio": 11
+    },
+    {
+      "item_id": "hortaliza6",
+      "nombre": "Porotos verdes",
+      "tipo": "hortaliza",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza6.png",
+      "is_fusion": true,
+      "precio": 16
+    },
+    {
+      "item_id": "hortaliza7",
+      "nombre": "Calabacín circular",
+      "tipo": "hortaliza",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "hortaliza/hortaliza7.png",
+      "precio": 22
+    },
+    {
+      "item_id": "generator_vegetal1",
+      "nombre": "Bolsa doblada",
+      "tipo": "generator_vegetal",
+      "nivel": 1,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal1.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vegetal2",
+      "nombre": "Bolsa de cartón cerrada",
+      "tipo": "generator_vegetal",
+      "nivel": 2,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal2.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vegetal3",
+      "nombre": "Bolsa de cartón",
+      "tipo": "generator_vegetal",
+      "nivel": 3,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal3.png",
+      "is_fusion": true
+    },
+    {
+      "item_id": "generator_vegetal4",
+      "nombre": "Bolsa básica",
+      "tipo": "generator_vegetal",
+      "nivel": 4,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal4.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "vegetal"
+        ],
+        "uses_max": 64,
+        "cooldown_max": 3400,
+        "items": [
+          {
+            "id": "vegetal1",
+            "prob": 1
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_vegetal5",
+      "nombre": "Bolsa de compra",
+      "tipo": "generator_vegetal",
+      "nivel": 5,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal5.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "vegetal"
+        ],
+        "uses_max": 75,
+        "cooldown_max": 3200,
+        "items": [
+          {
+            "id": "vegetal1",
+            "prob": 0.6
+          },
+          {
+            "id": "vegetal2",
+            "prob": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_vegetal6",
+      "nombre": "Canasta básica",
+      "tipo": "generator_vegetal",
+      "nivel": 6,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal6.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "vegetal",
+          "hortaliza"
+        ],
+        "uses_max": 85,
+        "cooldown_max": 3000,
+        "items": [
+          {
+            "id": "vegetal1",
+            "prob": 0.4
+          },
+          {
+            "id": "vegetal2",
+            "prob": 0.4
+          },
+          {
+            "id": "hortaliza1",
+            "prob": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_vegetal7",
+      "nombre": "Canasta de compra",
+      "tipo": "generator_vegetal",
+      "nivel": 7,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal7.png",
+      "is_fusion": true,
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "vegetal",
+          "hortaliza"
+        ],
+        "uses_max": 95,
+        "cooldown_max": 2800,
+        "items": [
+          {
+            "id": "vegetal1",
+            "prob": 0.25
+          },
+          {
+            "id": "vegetal2",
+            "prob": 0.25
+          },
+          {
+            "id": "hortaliza1",
+            "prob": 0.25
+          },
+          {
+            "id": "hortaliza2",
+            "prob": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "generator_vegetal8",
+      "nombre": "Canasta de supermercado",
+      "tipo": "generator_vegetal",
+      "nivel": 8,
+      "descripcion": "",
+      "icono": "generator_vegetal/generator_vegetal8.png",
+      "item_tipo": "generator",
+      "generator_data": {
+        "category_chain": [
+          "vegetal",
+          "hortaliza"
+        ],
+        "uses_max": 110,
+        "cooldown_max": 2600,
+        "items": [
+          {
+            "id": "vegetal1",
+            "prob": 0.2
+          },
+          {
+            "id": "vegetal2",
+            "prob": 0.2
+          },
+          {
+            "id": "vegetal3",
+            "prob": 0.2
+          },
+          {
+            "id": "hortaliza1",
+            "prob": 0.2
+          },
+          {
+            "id": "hortaliza2",
+            "prob": 0.2
+          }
+        ]
+      }
     }
   ],
-  "characters": [],
+  "characters": [
+    {
+			"character_id": "nicolas",
+			"name": "Nicolás",
+			"rarity": 2,
+			"portrait": "nicolas_normal.png"
+		},
+    {
+			"character_id": "renzo",
+			"name": "Renzo",
+			"rarity": 3,
+			"portrait": "renzo_normal.png"
+		}
+  ],
   "grid_main_layout": {
     "grid_config": [
       {
         "slot": 0,
-        "id": "maiz1"
+        "id": "lacteo8",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 1,
-        "id": "maiz2"
+        "id": "generator_vaca2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 2,
+        "id": "generator_pollo1",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 3,
-        "id": "maiz3"
+        "id": "generator_pollo3",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 4,
-        "id": "tomate3"
+        "id": "generator_flores2",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 5,
-        "id": "tomate1"
+        "id": "lavanda3",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 6,
-        "id": "tomate2"
+        "id": "huevo5",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 7,
-        "id": "generator_cultivo1"
+        "id": "lacteo6",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 8,
-        "id": "generator_cultivo1",
-        "bloqueado": true
+        "id": "generator_establo1",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 9,
-        "id": "generator_cultivo1",
+        "id": "generator_pollo2",
         "bloqueado": true,
         "bloqueado_completo": true
       },
       {
         "slot": 10,
-        "id": "generator_cultivo1"
+        "id": "maiz5",
+        "bloqueado": true
       },
       {
         "slot": 11,
-        "id": "generator_cultivo2"
+        "id": "tomate3",
+        "bloqueado": true
       },
       {
         "slot": 12,
-        "id": "generator_cultivo3"
+        "id": "maiz6",
+        "bloqueado": true
       },
       {
         "slot": 13,
-        "id": "generator_flores1"
+        "id": "generator_establo2",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 14,
-        "id": "generator_flores1"
+        "id": "huevo5",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 15,
-        "id": "generator_flores2"
+        "id": "girasol3",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 16,
-        "id": "generator_flores3"
+        "id": "maiz4",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 17,
-        "id": "generator_establo1"
+        "id": "tomate2",
+        "bloqueado": true
       },
       {
         "slot": 18,
-        "id": "generator_establo1"
+        "id": "tomate1",
+        "bloqueado": true
       },
       {
         "slot": 19,
-        "id": "generator_establo2"
+        "id": "maiz3",
+        "bloqueado": true
       },
       {
         "slot": 20,
-        "id": "generator_establo2"
+        "id": "lacteo7",
+        "bloqueado": true,
+        "bloqueado_completo": true
       },
       {
         "slot": 21,
-        "id": "generator_establo3"
+        "id": "huevo7",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 22,
+        "id": "generator_flores3",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 23,
+        "id": "maiz6",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 24,
+        "id": "generator_cultivo1"
+      },
+      {
+        "slot": 25,
+        "id": "generator_cultivo1"
+      },
+      {
+        "slot": 26,
+        "id": "maiz2",
+        "bloqueado": true
+      },
+      {
+        "slot": 27,
+        "id": "lacteo9",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 28,
+        "id": "hortaliza3",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 29,
+        "id": "lavanda3",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 30,
+        "id": "generator_flores2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 33,
+        "id": "maiz1",
+        "bloqueado": true
+      },
+      {
+        "slot": 34,
+        "id": "generator_establo1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 35,
+        "id": "vegetal4",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 36,
+        "id": "generator_flores2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 40,
+        "id": "tomate3",
+        "bloqueado": true
+      },
+      {
+        "slot": 41,
+        "id": "tomate6",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 42,
+        "id": "generator_vegetal2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 43,
+        "id": "generator_vegetal1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 44,
+        "id": "girasol2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 47,
+        "id": "tomate2",
+        "bloqueado": true
+      },
+      {
+        "slot": 48,
+        "id": "maiz9",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 49,
+        "id": "hortaliza5",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 50,
+        "id": "generator_vegetal2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 51,
+        "id": "girasol4",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 52,
+        "id": "generator_cultivo3"
+      },
+      {
+        "slot": 53,
+        "id": "maiz4"
+      },
+      {
+        "slot": 54,
+        "id": "maiz5",
+        "bloqueado": true
+      },
+      {
+        "slot": 55,
+        "id": "maiz7",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 56,
+        "id": "vegetal9",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 57,
+        "id": "vegetal6",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 58,
+        "id": "generator_flores1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 59,
+        "id": "maiz2",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 60,
+        "id": "maiz5",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 61,
+        "id": "generator_cultivo1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
+        "slot": 62,
+        "id": "generator_cultivo4",
+        "bloqueado": true,
+        "bloqueado_completo": true
       }
     ]
   },
@@ -1252,8 +1883,24 @@
         "result": "generator_pollo2"
       },
       {
+        "combination": "generator_pollo2+generator_pollo2",
+        "result": "generator_pollo3"
+      },
+      {
+        "combination": "generator_pollo3+generator_pollo3",
+        "result": "generator_pollo4"
+      },
+      {
         "combination": "generator_vaca1+generator_vaca1",
         "result": "generator_vaca2"
+      },
+      {
+        "combination": "generator_vaca2+generator_vaca2",
+        "result": "generator_vaca3"
+      },
+      {
+        "combination": "generator_vaca3+generator_vaca3",
+        "result": "generator_vaca4"
       },
       {
         "combination": "generator_establo1+generator_establo1",
@@ -1322,6 +1969,94 @@
       {
         "combination": "energy_50+energy_50",
         "result": "energy_100"
+      },
+      {
+        "combination": "vegetal1+vegetal1",
+        "result": "vegetal2"
+      },
+      {
+        "combination": "vegetal2+vegetal2",
+        "result": "vegetal3"
+      },
+      {
+        "combination": "vegetal3+vegetal3",
+        "result": "vegetal4"
+      },
+      {
+        "combination": "vegetal4+vegetal4",
+        "result": "vegetal5"
+      },
+      {
+        "combination": "vegetal5+vegetal5",
+        "result": "vegetal6"
+      },
+      {
+        "combination": "vegetal6+vegetal6",
+        "result": "vegetal7"
+      },
+      {
+        "combination": "vegetal7+vegetal7",
+        "result": "vegetal8"
+      },
+      {
+        "combination": "vegetal8+vegetal8",
+        "result": "vegetal9"
+      },
+      {
+        "combination": "vegetal9+vegetal9",
+        "result": "vegetal10"
+      },
+      {
+        "combination": "hortaliza1+hortaliza1",
+        "result": "hortaliza2"
+      },
+      {
+        "combination": "hortaliza2+hortaliza2",
+        "result": "hortaliza3"
+      },
+      {
+        "combination": "hortaliza3+hortaliza3",
+        "result": "hortaliza4"
+      },
+      {
+        "combination": "hortaliza4+hortaliza4",
+        "result": "hortaliza5"
+      },
+      {
+        "combination": "hortaliza5+hortaliza5",
+        "result": "hortaliza6"
+      },
+      {
+        "combination": "hortaliza6+hortaliza6",
+        "result": "hortaliza7"
+      },
+      {
+        "combination": "generator_vegetal1+generator_vegetal1",
+        "result": "generator_vegetal2"
+      },
+      {
+        "combination": "generator_vegetal2+generator_vegetal2",
+        "result": "generator_vegetal3"
+      },
+      {
+        "combination": "generator_vegetal3+generator_vegetal3",
+        "result": "generator_vegetal4"
+      },
+      {
+        "combination": "generator_vegetal4+generator_vegetal4",
+        "result": "generator_vegetal5"
+      },
+      {
+        "combination": "generator_vegetal5+generator_vegetal5",
+        "result": "generator_vegetal6"
+      },
+      {
+        "combination": "generator_vegetal6+generator_vegetal6",
+        "result": "generator_vegetal7"
+      },
+      {
+        "combination": "generator_vegetal7+generator_vegetal7",
+        "result": "generator_vegetal8"
       }
     ]
   },

@@ -275,7 +275,7 @@
 				"category_chain": [
 					"cafe"
 				],
-				"uses_max": 32,
+				"uses_max": 64,
 				"cooldown_max": 3600,
 				"items": [
 					{
@@ -299,7 +299,7 @@
 					"cafe",
 					"te"
 				],
-				"uses_max": 64,
+				"uses_max": 75,
 				"cooldown_max": 3400,
 				"items": [
 					{
@@ -327,7 +327,7 @@
 					"cafe",
 					"te"
 				],
-				"uses_max": 75,
+				"uses_max": 85,
 				"cooldown_max": 3200,
 				"items": [
 					{
@@ -359,7 +359,7 @@
 					"cafe",
 					"te"
 				],
-				"uses_max": 85,
+				"uses_max": 95,
 				"cooldown_max": 3000,
 				"items": [
 					{
@@ -394,7 +394,7 @@
 					"cafe",
 					"te"
 				],
-				"uses_max": 95,
+				"uses_max": 110,
 				"cooldown_max": 2800,
 				"items": [
 					{
@@ -456,7 +456,7 @@
 				"category_chain": [
 					"pan"
 				],
-				"uses_max": 32,
+				"uses_max": 64,
 				"cooldown_max": 3600,
 				"items": [
 					{
@@ -482,7 +482,7 @@
 				"category_chain": [
 					"pan"
 				],
-				"uses_max": 64,
+				"uses_max": 75,
 				"cooldown_max": 3400,
 				"items": [
 					{
@@ -510,7 +510,7 @@
 					"pan",
 					"masa"
 				],
-				"uses_max": 75,
+				"uses_max": 85,
 				"cooldown_max": 3200,
 				"items": [
 					{
@@ -542,7 +542,7 @@
 					"pan",
 					"masa"
 				],
-				"uses_max": 85,
+				"uses_max": 95,
 				"cooldown_max": 3000,
 				"items": [
 					{
@@ -578,7 +578,7 @@
 					"pan",
 					"masa"
 				],
-				"uses_max": 95,
+				"uses_max": 110,
 				"cooldown_max": 2800,
 				"items": [
 					{
@@ -1022,7 +1022,7 @@
 				"category_chain": [
 					"pescado"
 				],
-				"uses_max": 32,
+				"uses_max": 64,
 				"cooldown_max": 3600,
 				"items": [
 					{
@@ -1045,7 +1045,7 @@
 				"category_chain": [
 					"pescado"
 				],
-				"uses_max": 64,
+				"uses_max": 75,
 				"cooldown_max": 3400,
 				"items": [
 					{
@@ -1073,7 +1073,7 @@
 					"pescado",
 					"marisco"
 				],
-				"uses_max": 75,
+				"uses_max": 85,
 				"cooldown_max": 3200,
 				"items": [
 					{
@@ -1105,7 +1105,7 @@
 					"pescado",
 					"marisco"
 				],
-				"uses_max": 85,
+				"uses_max": 95,
 				"cooldown_max": 3000,
 				"items": [
 					{
@@ -1326,7 +1326,7 @@
 					"fruta_tropical"
 				],
 				"cooldown_max": 3600,
-				"uses_max": 32,
+				"uses_max": 64,
 				"items": [
 					{
 						"id": "fruta_tropical1",
@@ -1349,7 +1349,7 @@
 					"fruta_tropical"
 				],
 				"cooldown_max": 3400,
-				"uses_max": 64,
+				"uses_max": 75,
 				"items": [
 					{
 						"id": "fruta_tropical1",
@@ -1377,7 +1377,7 @@
 					"fruta"
 				],
 				"cooldown_max": 3200,
-				"uses_max": 75,
+				"uses_max": 85,
 				"items": [
 					{
 						"id": "fruta_tropical1",
@@ -1408,7 +1408,7 @@
 					"fruta"
 				],
 				"cooldown_max": 3000,
-				"uses_max": 85,
+				"uses_max": 95,
 				"items": [
 					{
 						"id": "fruta_tropical1",
