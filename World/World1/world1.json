@@ -2066,7 +2066,8 @@
         "chapter": 1,
         "scene": 1,
         "rewards_id": [
-          "maiz4"
+          "generator_cultivo2",
+          "maiz1"
         ],
         "exp": 10,
         "coins_required": 0
@@ -2075,7 +2076,7 @@
         "chapter": 1,
         "scene": 2,
         "rewards_id": [
-          "maiz1"
+          "energia_100"
         ],
         "exp": 12,
         "coins_required": 20
@@ -2084,7 +2085,7 @@
         "chapter": 1,
         "scene": 3,
         "rewards_id": [
-          "maiz5"
+          "maiz5", "tomate3"
         ],
         "exp": 24,
         "coins_required": 40
