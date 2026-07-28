@@ -2095,15 +2095,6 @@
         ],
         "exp": 24,
         "coins_required": 40
-      },
-      {
-        "chapter": 2,
-        "scene": 1,
-        "rewards_id": [
-          "energy_100"
-        ],
-        "exp": 12,
-        "coins_required": 20
       }
     ]
   }
