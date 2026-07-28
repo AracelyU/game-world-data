@@ -76,27 +76,6 @@
 			"precio": 100
 		},
 		{
-			"item_id": "energia_100",
-			"nombre": "Caja de energía",
-			"tipo": "box_energy",
-			"item_tipo": "limited_generator",
-			"generator_data": {
-				"category_chain": [
-					"energy"
-				],
-				"uses_max": 1,
-				"items": [
-					{
-						"id": "energy_100",
-						"prob": 1
-					}
-				]
-			},
-			"nivel": 1,
-			"descripcion": "Un solo item, +100 de energía.",
-			"icono": "item_energy.png"
-		},
-		{
 			"item_id": "te1",
 			"nombre": "Hojas de té",
 			"tipo": "te",
@@ -251,6 +230,7 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_cafeteria/generator_cafeteria1.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -260,6 +240,7 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_cafeteria/generator_cafeteria2.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
