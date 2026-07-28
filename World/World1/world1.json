@@ -1569,6 +1569,12 @@
         "bloqueado_completo": true
       },
       {
+        "slot": 37,
+        "id": "lavanda1",
+        "bloqueado": true,
+        "bloqueado_completo": true
+      },
+      {
         "slot": 40,
         "id": "tomate3",
         "bloqueado": true
