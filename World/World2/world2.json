@@ -408,6 +408,7 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia1.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -417,6 +418,7 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia2.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -426,6 +428,7 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_panaderia/generator_panaderia3.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -1273,6 +1276,7 @@
 			"nivel": 1,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta1.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -1282,6 +1286,7 @@
 			"nivel": 2,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta2.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
@@ -1291,6 +1296,7 @@
 			"nivel": 3,
 			"descripcion": "",
 			"icono": "generator_fruta/generator_fruta3.png",
+			"item_tipo":"generator",
 			"is_fusion": true
 		},
 		{
