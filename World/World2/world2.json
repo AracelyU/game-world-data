@@ -1627,7 +1627,7 @@
 			},
 			{
 				"slot": 34,
-				"id": "generator_cafeteria2",
+				"id": "te3",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			},
@@ -1764,7 +1764,7 @@
 			},
 			{
 				"slot": 62,
-				"id": "masa7",
+				"id": "masa6",
 				"bloqueado": true,
 				"bloqueado_completo": true
 			}
@@ -2198,7 +2198,7 @@
 				"scene": 5,
 				"rewards_id": [
 					"cafe1",
-					"generator_cafe1"
+					"generator_cafeteria1"
 				],
 				"exp": 48,
 				"coins_required": 80
@@ -2207,7 +2207,7 @@
 				"chapter": 1,
 				"scene": 6,
 				"rewards_id": [
-					"pan5",
+					"pan7",
 					"cafe3"
 				],
 				"exp": 60,
@@ -2217,10 +2217,29 @@
 				"chapter": 1,
 				"scene": 7,
 				"rewards_id": [
-					"cafe6"
+					"generator_cafeteria2",
+					"energy_50"
 				],
 				"exp": 72,
 				"coins_required": 120
+			},
+			{
+				"chapter": 1,
+				"scene": 8,
+				"rewards_id": [
+					"cafe6"
+				],
+				"exp": 84,
+				"coins_required": 140
+			},
+			{
+				"chapter": 1,
+				"scene": 9,
+				"rewards_id": [
+					"cafe6"
+				],
+				"exp": 96,
+				"coins_required": 160
 			}
 		]
 	}
