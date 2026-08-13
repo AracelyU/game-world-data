@@ -1477,6 +1477,9 @@
 			{
 				"slot": 0,
 				"id": "generator_cafeteria7"
+			},{
+				"slot": 1,
+				"id": "generator_cafeteria7"
 			}
 		]
 	},
