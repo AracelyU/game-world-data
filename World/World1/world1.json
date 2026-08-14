@@ -1379,6 +1379,12 @@
 			"name": "Renzo",
 			"rarity": 3,
 			"portrait": "renzo_normal.png"
+		},
+    {
+			"character_id": "ana",
+			"name": "Ana",
+			"rarity": 2,
+			"portrait": "ana_normal.png"
 		}
   ],
   "grid_main_layout": {
@@ -1460,7 +1466,7 @@
       },
       {
         "slot": 13,
-        "id": "generator_establo2",
+        "id": "generator_vaca2",
         "bloqueado": true,
         "bloqueado_completo": true
       },
@@ -2104,10 +2110,46 @@
         "chapter": 1,
         "scene": 3,
         "rewards_id": [
-          "maiz5", "tomate3"
+          "maiz3", "tomate3"
         ],
         "exp": 24,
         "coins_required": 40
+      },
+      {
+        "chapter": 1,
+        "scene": 4,
+        "rewards_id": [
+          "maiz4", "tomate2"
+        ],
+        "exp":36,
+        "coins_required": 60
+      },
+      {
+        "chapter": 1,
+        "scene": 5,
+        "rewards_id": [
+          "energy_50"
+        ],
+        "exp": 48,
+        "coins_required": 80
+      },
+      {
+        "chapter": 1,
+        "scene": 6,
+        "rewards_id": [
+          "generator_pollo1"
+        ],
+        "exp": 60,
+        "coins_required": 100
+      },
+      {
+        "chapter": 1,
+        "scene": 7,
+        "rewards_id": [
+          "generator_establo2"
+        ],
+        "exp": 72,
+        "coins_required": 120
       }
     ]
   }
