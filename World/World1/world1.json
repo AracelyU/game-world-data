@@ -1415,7 +1415,7 @@
       },
       {
         "slot": 4,
-        "id": "generator_flores2",
+        "id": "generator_flores1",
         "bloqueado": true,
         "bloqueado_completo": true
       },
@@ -1583,7 +1583,7 @@
       },
       {
         "slot": 36,
-        "id": "generator_flores2",
+        "id": "generator_flores1",
         "bloqueado": true,
         "bloqueado_completo": true
       },
@@ -1708,7 +1708,7 @@
       },
       {
         "slot": 62,
-        "id": "generator_cultivo4",
+        "id": "tomate5",
         "bloqueado": true,
         "bloqueado_completo": true
       }
