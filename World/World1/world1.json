@@ -643,7 +643,7 @@
       "generator_data": {
         "category_chain": [
           "generator_pollo",
-          "generator_vacas"
+          "generator_vaca"
         ],
         "uses_max": 25,
         "cooldown_max": 1500,
