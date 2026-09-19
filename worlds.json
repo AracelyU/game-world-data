@@ -1,10 +1,13 @@
-[
-    {
-        "dir": "World/World1",
-        "file": "world1.json"
-    },
-    {
-        "dir": "World/World2",
-        "file": "world2.json"
-    }
-]
+{
+    "assets_version": 1,
+    "worlds": [
+        {
+            "dir": "World/World1",
+            "file": "world1.json"
+        },
+        {
+            "dir": "World/World2",
+            "file": "world2.json"
+        }
+    ]
+}
